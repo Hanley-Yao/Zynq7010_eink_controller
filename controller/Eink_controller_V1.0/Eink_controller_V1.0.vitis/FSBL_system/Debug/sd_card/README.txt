@@ -1,8 +1,3 @@
--= SD card boot image =-
-
-Platform: ps_system
-Application: eink_controller_et073
-
-1. Copy the contents of this directory to an SD card
-2. Set boot mode to SD
-3. Insert SD card and turn board on
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6861ea48332a48d9ca578a1e7ec5c275d928182ce8a1b24bf2dd80fb45cdf2a
+size 202

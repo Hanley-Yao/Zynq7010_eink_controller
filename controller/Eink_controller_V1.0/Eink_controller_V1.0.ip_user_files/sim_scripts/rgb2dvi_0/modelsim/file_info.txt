@@ -1,22 +1,3 @@
-axi4stream_vip_axi4streampc.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv,
-axi_vip_axi4pc.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv,
-xil_common_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv,
-axi4stream_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv,
-axi_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_pkg.sv,
-axi4stream_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv,
-axi_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_if.sv,
-clk_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/clk_vip_if.sv,
-rst_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/rst_vip_if.sv,
-xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
-xpm_memory.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
-xpm_fifo.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,
-xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd,
-ClockGen.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/ClockGen.vhd,
-SyncAsync.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/SyncAsync.vhd,
-SyncAsyncReset.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/SyncAsyncReset.vhd,
-DVI_Constants.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/DVI_Constants.vhd,
-OutputSERDES.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/OutputSERDES.vhd,
-TMDS_Encoder.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/TMDS_Encoder.vhd,
-rgb2dvi.vhd,vhdl,xil_defaultlib,../../../ipstatic/src/rgb2dvi.vhd,
-rgb2dvi_0.vhd,vhdl,xil_defaultlib,../../../../Eink_controller_V1.0.gen/sources_1/ip/rgb2dvi_0/sim/rgb2dvi_0.vhd,
-glbl.v,Verilog,xil_defaultlib,glbl.v
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba9955e0152b4902cb90df3a2b8c97e62367ec07eef5da61e0f9079697a712d9
+size 2369

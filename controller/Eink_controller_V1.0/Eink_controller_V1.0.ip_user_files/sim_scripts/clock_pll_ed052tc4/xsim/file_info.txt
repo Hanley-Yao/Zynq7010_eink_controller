@@ -1,3 +1,3 @@
-clock_pll_ed052tc4_clk_wiz.v,verilog,xil_defaultlib,../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_ed052tc4/clock_pll_ed052tc4_clk_wiz.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
-clock_pll_ed052tc4.v,verilog,xil_defaultlib,../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_ed052tc4/clock_pll_ed052tc4.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../ipstatic"
-glbl.v,Verilog,xil_defaultlib,glbl.v
+version https://git-lfs.github.com/spec/v1
+oid sha256:084dc70e559215ca51dc02571d50fec829245cd7ddc49e9f5d4655ac2ec9fdec
+size 448

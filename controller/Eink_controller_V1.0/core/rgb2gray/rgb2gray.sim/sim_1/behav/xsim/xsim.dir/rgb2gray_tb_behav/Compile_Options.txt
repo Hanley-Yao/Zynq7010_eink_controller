@@ -1,1 +1,3 @@
--wto "becee5371dbd451b876ef9a49797dd2e" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "rgb2gray_tb_behav" "xil_defaultlib.rgb2gray_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eacbd973cc5fed5c457f46384583a83b01c71139b68f7e2aa94a448094f9960
+size 256

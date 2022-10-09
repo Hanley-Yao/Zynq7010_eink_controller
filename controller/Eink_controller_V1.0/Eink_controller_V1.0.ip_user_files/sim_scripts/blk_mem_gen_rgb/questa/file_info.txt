@@ -1,16 +1,3 @@
-axi4stream_vip_axi4streampc.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv,
-axi_vip_axi4pc.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv,
-xil_common_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv,
-axi4stream_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv,
-axi_vip_pkg.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_pkg.sv,
-axi4stream_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv,
-axi_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/axi_vip_if.sv,
-clk_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/clk_vip_if.sv,
-rst_vip_if.sv,systemverilog,xilinx_vip,../../../../../../../../../../Xilinx/Vivado/2020.2/data/xilinx_vip/hdl/rst_vip_if.sv,
-xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
-xpm_memory.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
-xpm_fifo.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,
-xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../../Xilinx/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd,
-blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_4,../../../ipstatic/simulation/blk_mem_gen_v8_4.v,
-blk_mem_gen_rgb.v,verilog,xil_defaultlib,../../../../Eink_controller_V1.0.gen/sources_1/ip/blk_mem_gen_rgb/sim/blk_mem_gen_rgb.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2f6bb1140d5c612899b019deb114b5e17438a651e42307bf63a6ebaab25104b
+size 1954

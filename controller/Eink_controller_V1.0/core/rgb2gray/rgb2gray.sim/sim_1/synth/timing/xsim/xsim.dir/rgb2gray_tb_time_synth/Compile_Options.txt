@@ -1,1 +1,3 @@
--wto "becee5371dbd451b876ef9a49797dd2e" --incr --debug "typical" --relax --mt "2" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "rgb2gray_tb_time_synth" -transport_int_delays -pulse_r "0" -pulse_int_r "0" -pulse_e "0" -pulse_int_e "0" "xil_defaultlib.rgb2gray_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
+version https://git-lfs.github.com/spec/v1
+oid sha256:814d58354160ac9e4af870f52166b3d619b64800db96c9df5e7f42de7bd2b301
+size 337
