@@ -1,0 +1,26 @@
+# blacklist all
+*
+# whitelist select files
+!.gitignore
+!component.xml
+!README.md
+
+!gui
+gui/*
+!gui/pmod_bridge_v1_1.gtcl
+
+!xgui
+xgui/*
+!xgui/pmod_bridge_v1_1.tcl
+
+!utils
+util/*
+!utils/board
+utils/board/*
+!utils/board/board.xit
+
+!src
+src/*
+!src/pmod_concat.hwdef
+!src/pmod_concat.v
+!src/pmod_concat_ooc.xdc

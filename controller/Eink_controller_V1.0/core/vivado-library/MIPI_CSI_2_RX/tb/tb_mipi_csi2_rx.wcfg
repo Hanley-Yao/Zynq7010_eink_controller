@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_MIPI_CSI2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="debuglib" />
+            <top_module name="glbl" />
+            <top_module name="tb_MIPI_CSI2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1025000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1645000001fs"></ZoomEndTime>
+      <Cursor1Time time="1516547000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wave_markers>
+      <marker time="165000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_MIPI_CSI2/mRst_n" type="logic">
+      <obj_property name="ElementShortName">mRst_n</obj_property>
+      <obj_property name="ObjectShortName">mRst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/RxByteClkHS" type="logic">
+      <obj_property name="ElementShortName">RxByteClkHS</obj_property>
+      <obj_property name="ObjectShortName">RxByteClkHS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/rbRxDataHS" type="array">
+      <obj_property name="ElementShortName">rbRxDataHS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rbRxDataHS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/rbRxSyncHS" type="array">
+      <obj_property name="ElementShortName">rbRxSyncHS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rbRxSyncHS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/rbRxValidHS" type="array">
+      <obj_property name="ElementShortName">rbRxValidHS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rbRxValidHS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/rbRxActiveHS" type="array">
+      <obj_property name="ElementShortName">rbRxActiveHS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rbRxActiveHS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/aDEnable" type="array">
+      <obj_property name="ElementShortName">aDEnable[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aDEnable[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/aClkEnable" type="logic">
+      <obj_property name="ElementShortName">aClkEnable</obj_property>
+      <obj_property name="ObjectShortName">aClkEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbMAxisTdata" type="array">
+      <obj_property name="ElementShortName">rbMAxisTdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rbMAxisTdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbMAxisTkeep" type="array">
+      <obj_property name="ElementShortName">rbMAxisTkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rbMAxisTkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbMAxisTvalid" type="logic">
+      <obj_property name="ElementShortName">rbMAxisTvalid</obj_property>
+      <obj_property name="ObjectShortName">rbMAxisTvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbMAxisTready" type="logic">
+      <obj_property name="ElementShortName">rbMAxisTready</obj_property>
+      <obj_property name="ObjectShortName">rbMAxisTready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbMAxisTlast" type="logic">
+      <obj_property name="ElementShortName">rbMAxisTlast</obj_property>
+      <obj_property name="ObjectShortName">rbMAxisTlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbErrSkew" type="logic">
+      <obj_property name="ElementShortName">rbErrSkew</obj_property>
+      <obj_property name="ObjectShortName">rbErrSkew</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LM_inst/rbErrOvf" type="logic">
+      <obj_property name="ElementShortName">rbErrOvf</obj_property>
+      <obj_property name="ObjectShortName">rbErrOvf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFIFO_Tdata" type="array">
+      <obj_property name="ElementShortName">mFIFO_Tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mFIFO_Tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFIFO_Tlast" type="logic">
+      <obj_property name="ElementShortName">mFIFO_Tlast</obj_property>
+      <obj_property name="ObjectShortName">mFIFO_Tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFIFO_Tvalid" type="logic">
+      <obj_property name="ElementShortName">mFIFO_Tvalid</obj_property>
+      <obj_property name="ObjectShortName">mFIFO_Tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFIFO_Tready" type="logic">
+      <obj_property name="ElementShortName">mFIFO_Tready</obj_property>
+      <obj_property name="ObjectShortName">mFIFO_Tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFIFO_Tkeep" type="array">
+      <obj_property name="ElementShortName">mFIFO_Tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mFIFO_Tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mECC_HeaderOut" type="array">
+      <obj_property name="ElementShortName">mECC_HeaderOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mECC_HeaderOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mECC_Valid" type="logic">
+      <obj_property name="ElementShortName">mECC_Valid</obj_property>
+      <obj_property name="ObjectShortName">mECC_Valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mECC_Error" type="logic">
+      <obj_property name="ElementShortName">mECC_Error</obj_property>
+      <obj_property name="ObjectShortName">mECC_Error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mFlush" type="logic">
+      <obj_property name="ElementShortName">mFlush</obj_property>
+      <obj_property name="ObjectShortName">mFlush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mKeep" type="logic">
+      <obj_property name="ElementShortName">mKeep</obj_property>
+      <obj_property name="ObjectShortName">mKeep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mIsHeader" type="logic">
+      <obj_property name="ElementShortName">mIsHeader</obj_property>
+      <obj_property name="ObjectShortName">mIsHeader</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mPkt_Tdata" type="array">
+      <obj_property name="ElementShortName">mPkt_Tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mPkt_Tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mPkt_Tlast" type="logic">
+      <obj_property name="ElementShortName">mPkt_Tlast</obj_property>
+      <obj_property name="ObjectShortName">mPkt_Tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mPkt_Tvalid" type="logic">
+      <obj_property name="ElementShortName">mPkt_Tvalid</obj_property>
+      <obj_property name="ObjectShortName">mPkt_Tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mPkt_Tready" type="logic">
+      <obj_property name="ElementShortName">mPkt_Tready</obj_property>
+      <obj_property name="ObjectShortName">mPkt_Tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/DUT/LLP_inst/mPkt_Tkeep" type="array">
+      <obj_property name="ElementShortName">mPkt_Tkeep[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mPkt_Tkeep[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/mAxisTdata" type="array">
+      <obj_property name="ElementShortName">mAxisTdata[39:0]</obj_property>
+      <obj_property name="ObjectShortName">mAxisTdata[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/mAxisTvalid" type="logic">
+      <obj_property name="ElementShortName">mAxisTvalid</obj_property>
+      <obj_property name="ObjectShortName">mAxisTvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/mAxisTready" type="logic">
+      <obj_property name="ElementShortName">mAxisTready</obj_property>
+      <obj_property name="ObjectShortName">mAxisTready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/mAxisTlast" type="logic">
+      <obj_property name="ElementShortName">mAxisTlast</obj_property>
+      <obj_property name="ObjectShortName">mAxisTlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/mAxisTuser" type="array">
+      <obj_property name="ElementShortName">mAxisTuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">mAxisTuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/MAxisClk" type="logic">
+      <obj_property name="ElementShortName">MAxisClk</obj_property>
+      <obj_property name="ObjectShortName">MAxisClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/kTargetDT" type="array">
+      <obj_property name="ElementShortName">kTargetDT[1:5]</obj_property>
+      <obj_property name="ObjectShortName">kTargetDT[1:5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/kLaneCount" type="other">
+      <obj_property name="ElementShortName">kLaneCount</obj_property>
+      <obj_property name="ObjectShortName">kLaneCount</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/C_M_AXIS_COMPONENT_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_M_AXIS_COMPONENT_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_M_AXIS_COMPONENT_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/C_M_AXIS_TDATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_M_AXIS_TDATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_M_AXIS_TDATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/C_M_MAX_SAMPLES_PER_CLOCK" type="other">
+      <obj_property name="ElementShortName">C_M_MAX_SAMPLES_PER_CLOCK</obj_property>
+      <obj_property name="ObjectShortName">C_M_MAX_SAMPLES_PER_CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/kRxClkPeriod" type="other">
+      <obj_property name="ElementShortName">kRxClkPeriod</obj_property>
+      <obj_property name="ObjectShortName">kRxClkPeriod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/kVidClkPeriod" type="other">
+      <obj_property name="ElementShortName">kVidClkPeriod</obj_property>
+      <obj_property name="ObjectShortName">kVidClkPeriod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/fs_err" type="array">
+      <obj_property name="ElementShortName">fs_err[0:5][7:0]</obj_property>
+      <obj_property name="ObjectShortName">fs_err[0:5][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/fs" type="array">
+      <obj_property name="ElementShortName">fs[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">fs[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/longRAW10_err" type="array">
+      <obj_property name="ElementShortName">longRAW10_err[0:19][7:0]</obj_property>
+      <obj_property name="ObjectShortName">longRAW10_err[0:19][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MIPI_CSI2/fe" type="array">
+      <obj_property name="ElementShortName">fe[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">fe[0:3][7:0]</obj_property>
+   </wvobject>
+</wave_config>

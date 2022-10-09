@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot clock_pll_et017qc4 xil_defaultlib.clock_pll_et017qc4 xil_defaultlib.glbl -log elaborate.log

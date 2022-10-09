@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PWM_Analyzer
+	OPTION supported_peripherals = (PWM_Analyzer);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PWM_Analyzer;
+END DRIVER

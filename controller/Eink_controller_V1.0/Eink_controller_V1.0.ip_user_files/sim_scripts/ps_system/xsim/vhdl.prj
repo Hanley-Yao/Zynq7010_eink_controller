@@ -1,0 +1,7 @@
+vhdl xpm  \
+"C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl fifo_generator_v13_2_5  \
+"../../../../Eink_controller.gen/sources_1/bd/ps_system/ipshared/276e/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+nosort

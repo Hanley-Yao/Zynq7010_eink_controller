@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="base_addr" attr.type="string" for="node" id="BA"/>
+  <key attr.name="base_param" attr.type="string" for="node" id="BP"/>
+  <key attr.name="edge_hid" attr.type="int" for="edge" id="EH"/>
+  <key attr.name="high_addr" attr.type="string" for="node" id="HA"/>
+  <key attr.name="high_param" attr.type="string" for="node" id="HP"/>
+  <key attr.name="master_addrspace" attr.type="string" for="node" id="MA"/>
+  <key attr.name="master_instance" attr.type="string" for="node" id="MX"/>
+  <key attr.name="master_interface" attr.type="string" for="node" id="MI"/>
+  <key attr.name="master_segment" attr.type="string" for="node" id="MS"/>
+  <key attr.name="master_vlnv" attr.type="string" for="node" id="MV"/>
+  <key attr.name="memory_type" attr.type="string" for="node" id="TM"/>
+  <key attr.name="slave_instance" attr.type="string" for="node" id="SX"/>
+  <key attr.name="slave_interface" attr.type="string" for="node" id="SI"/>
+  <key attr.name="slave_segment" attr.type="string" for="node" id="SS"/>
+  <key attr.name="slave_vlnv" attr.type="string" for="node" id="SV"/>
+  <key attr.name="usage_type" attr.type="string" for="node" id="TU"/>
+  <key attr.name="vert_hid" attr.type="int" for="node" id="VH"/>
+  <key attr.name="vert_name" attr.type="string" for="node" id="VM"/>
+  <key attr.name="vert_type" attr.type="string" for="node" id="VT"/>
+  <graph edgedefault="undirected" id="G" parse.edgeids="canonical" parse.nodeids="canonical" parse.order="nodesfirst">
+    <node id="n0">
+      <data key="VH">2</data>
+      <data key="VM">ps_system</data>
+      <data key="VT">VR</data>
+    </node>
+    <node id="n1">
+      <data key="VM">ps_system</data>
+      <data key="VT">BC</data>
+    </node>
+    <node id="n2">
+      <data key="BA">0x00000000</data>
+      <data key="BP">C_BASEADDR</data>
+      <data key="HA">0x1FFFFFFF</data>
+      <data key="HP">C_HIGHADDR</data>
+      <data key="MA">M_AXI</data>
+      <data key="MX">/uiFDMA_2</data>
+      <data key="MI">M_AXI</data>
+      <data key="MS">SEG_processing_system7_0_HP0_DDR_LOWOCM</data>
+      <data key="MV">xilinx.com:user:uiFDMA:3.0</data>
+      <data key="TM">both</data>
+      <data key="SX">/processing_system7_0</data>
+      <data key="SI">S_AXI_HP0</data>
+      <data key="SS">HP0_DDR_LOWOCM</data>
+      <data key="SV">xilinx.com:ip:processing_system7:5.5</data>
+      <data key="TU">memory</data>
+      <data key="VT">AC</data>
+    </node>
+    <node id="n3">
+      <data key="BA">0x00000000</data>
+      <data key="BP">C_BASEADDR</data>
+      <data key="HA">0x1FFFFFFF</data>
+      <data key="HP">C_HIGHADDR</data>
+      <data key="MA">M_AXI</data>
+      <data key="MX">/uiFDMA_1</data>
+      <data key="MI">M_AXI</data>
+      <data key="MS">SEG_processing_system7_0_HP0_DDR_LOWOCM</data>
+      <data key="MV">xilinx.com:user:uiFDMA:3.0</data>
+      <data key="TM">both</data>
+      <data key="SX">/processing_system7_0</data>
+      <data key="SI">S_AXI_HP0</data>
+      <data key="SS">HP0_DDR_LOWOCM</data>
+      <data key="SV">xilinx.com:ip:processing_system7:5.5</data>
+      <data key="TU">memory</data>
+      <data key="VT">AC</data>
+    </node>
+    <node id="n4">
+      <data key="BA">0x00000000</data>
+      <data key="BP">C_BASEADDR</data>
+      <data key="HA">0x1FFFFFFF</data>
+      <data key="HP">C_HIGHADDR</data>
+      <data key="MA">M_AXI</data>
+      <data key="MX">/uiFDMA_0</data>
+      <data key="MI">M_AXI</data>
+      <data key="MS">SEG_processing_system7_0_HP0_DDR_LOWOCM</data>
+      <data key="MV">xilinx.com:user:uiFDMA:3.0</data>
+      <data key="TM">both</data>
+      <data key="SX">/processing_system7_0</data>
+      <data key="SI">S_AXI_HP0</data>
+      <data key="SS">HP0_DDR_LOWOCM</data>
+      <data key="SV">xilinx.com:ip:processing_system7:5.5</data>
+      <data key="TU">memory</data>
+      <data key="VT">AC</data>
+    </node>
+    <node id="n5">
+      <data key="TU">active</data>
+      <data key="VH">2</data>
+      <data key="VT">PM</data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+    </edge>
+    <edge id="e1" source="n0" target="n5">
+    </edge>
+    <edge id="e2" source="n4" target="n5">
+      <data key="EH">2</data>
+    </edge>
+    <edge id="e3" source="n3" target="n5">
+      <data key="EH">2</data>
+    </edge>
+    <edge id="e4" source="n2" target="n5">
+      <data key="EH">2</data>
+    </edge>
+  </graph>
+</graphml>

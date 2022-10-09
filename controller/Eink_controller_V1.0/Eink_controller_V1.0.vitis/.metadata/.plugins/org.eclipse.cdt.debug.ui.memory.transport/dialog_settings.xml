@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item key="Start" value="0xf500000"/>
+		<item key="End" value="0xf500100"/>
+		<item key="Initial address" value="0xf500000"/>
+		<item key="File" value="C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Buf_1.txt"/>
+		<item key="SELECTED_EXPORTER" value="rawbinary"/>
+	</section>
+</section>

@@ -1,0 +1,7 @@
+# Make sure we keep only xci files in repo ip src subfolder
+src/*/*
+# Ignore 'generated_ip' directory inside repo/ip
+!src/*/
+!src/*/*.xci
+!src/*/*.patch
+!src/*/*.tcl

@@ -1,0 +1,11 @@
+# blacklist all
+*
+# whitelist select files
+!.gitignore
+!component.xml
+!README.md
+!xgui/pmod_concat_v1_0.tcl
+!utils/board/board.xit
+!src/pmod_concat.hwdef
+!src/pmod_concat.v
+!src/pmod_concat_ooc.xdc

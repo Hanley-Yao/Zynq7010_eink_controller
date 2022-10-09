@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+#* text=auto
+
+*.vhdl linguist-language=verilog
+*.vhd linguist-language=verilog
+*.sv linguist-language=verilog
+*.v linguist-language=verilog
+
+*.html linguist-vendored

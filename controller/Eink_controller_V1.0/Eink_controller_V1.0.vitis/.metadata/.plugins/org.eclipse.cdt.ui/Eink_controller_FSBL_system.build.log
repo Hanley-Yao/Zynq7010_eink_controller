@@ -1,0 +1,15 @@
+17:08:42 **** Build of configuration Debug for project Eink_controller_FSBL_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 1692 C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/eink_controller_ed108/export/eink_controller_ed108/eink_controller_ed108.xpfm standalone_ps7_cortexa9_0 C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/Eink_controller_FSBL_system/Debug/system.bif
+xpfm path is not valid
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/eink_controller_ed108/export/eink_controller_ed108/eink_controller_ed108.xpfm -domains standalone_ps7_cortexa9_0 -bifpath C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/Eink_controller_FSBL_system/Debug/system.bif}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "::scw::generate_bif $GENERATE_BIF_ARGS"]"
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
+make: *** [makefile:38: package] Error 1
+
+17:08:45 Build Finished (took 2s.880ms)
+

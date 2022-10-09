@@ -1,0 +1,339 @@
+<html>
+
+<head>
+	<title>HTTP Server Setup (FPGA)</title>
+    <style type="text/css">
+        .style1
+        {
+            font-size: xx-small;
+        }
+    </style>
+</head>
+
+<body>
+	
+	<div align="center">
+		<img alt="" height="112" src="Digilent.png" width="500" />
+		<h1>DEIPcK HTTP Example Server Setup</h1>
+		<h2>by Keith Vogel, Thomas Kappenman</h2>
+	</div>
+	
+	<table>
+		<tr>
+			<td>
+				<br>
+					
+				There are two aspects to the project: the code that runs on the FPGA board and
+				the <code>Content</code> directory that contains Web content that you must copy onto the
+				SD card. This project uses the Digilent PmodWIFI IP (along with a PmodSD IP if not using Zynq).
+				These IPs include the necessary source files you need to run this project in the
+				<code>*design*_wrapper_hw_platform/drivers/PmodWIFI_v1_0/examples/HTTPServer</code> folder.
+				This HTTP Server can be downloaded
+				via <a href="HTTPSrv.zip">HTTPServer.zip</a>. The HTTP Server also relies on the Digilent
+                Embedded Open Source Network Libraries (DEIPcK based on deIP<sup><span 
+                    class="style1">TM</span></sup>). These libraries are automatically included within the 
+				PmodWIFI BSP files. Finally, in the examples/HTTPServer directory there is
+				a &ldquo;<code>CopyTheseFilesToYourSDCard</code>&rdquo; subdirectory.  This directory contains the sample
+				content to store on your SD card (the files in this directory are not compiled with the
+				sketch).
+
+				<br><br>
+
+				<b>Supported Hardware: (Must use PmodWIFI)</b>
+				
+				<ul>
+					<li>Any Artix-7 FPGA that can run Microblaze. Must have an SD Card slot or PmodSD attached.</li>
+					<li>The Arty-Z20, Zybo and the Zedboard</li>
+				</ul>
+
+				<h2>Step 1</h2>
+				
+				Before you start, install the <a href="https://github.com/Digilent/vivado-boards">Digilent Board Files</a>
+				to your Vivado installation.<br>
+				Create a Microblaze/Zynq block design in Vivado.
+				Include the <a href="https://github.com/Digilent/vivado-library">Digilent IP Library</a> in your project
+				settings.<br>
+				
+				Using the Board tab within Vivado, double click the Pmod Connector that your PmodWIFI is connected to.				
+				Find the PmodWIFI IP core and add it to your design.<br>
+				
+				If you are using Microblaze, do the same for your SD card with the PmodSD IP. Do not forget to add the
+				Serial UART to your design and to configure it to 115200 Baud Rate as well.<br>
+				
+				Run Synthesis, Implementation and Generate Bitstream<br>
+				
+				When finished, export you hardware configuration to Xilinx SDK (File>Export>Export Hardware). Make sure
+				to include the Bitsream.<br>
+				
+				<h2>Step 2</h2>
+				
+				In Xilinx SDK, create a new Application project (File>New>Application Project).
+				Under Target Sofware, set Language to C++, and create the new project.<br>
+				Copy the files included within <code>[design_name]_wrapper_hw_platform/drivers/PmodWIFI/examples/HTTPServer</code>,
+				excluding the folder named <code>CopyTheseToYourSDCard</code>. These should be copied to the root of your SD Card.<br>
+				
+
+				<ol>
+					<li><code>deWebIOServerSrc.cpp</code>:
+						<br> This is the primary main file.</li>
+					<li><code>HTTPServerConfig.h</code>:
+						<br> A file containing your specific network parameters, such as IP address and
+						WiFi Keys or passphrase.</li>
+					<li><code>IOConfig.h</code>:
+						<br> The chipKIT board pin mapping file for LEDs, Buttons and Switches.</li>
+					<li><code>HTMLGetPins.cpp</code>:
+						<br> An example dynamically created HTML page. This is not a required source
+						for the HTTP Server, but it is there to illustrate how to create a simple
+						dynamically generated page to report the current settings
+						of switches, buttons, and LEDs on the HTTP Server.</ol>
+
+
+				<h2>Step 3</h2>
+
+				Modify <code>HTTPServerConfig.h</code> to provide the network parameters as
+				follows.
+
+				<br><br>
+
+				<b>Provide the LAN Setup:</b>
+				
+				This is a server, and for clients to connect to a server, the IP address needs to be
+				well known.  The easiest thing to do is to assign a static IP address to the server.
+				As an alternative to using a static IP address, DHCP offers many advantage as it will
+				automatically assign your subnet mask, gateway, and DNS servers; all of which are
+				valuable network parameters.  The HTTP Server is designed so that you can assign a
+				static IP and all of the network addresses manually, or use DHCP to automatically get
+				your network parameters, as well as get an IP assignment.  Or (and this is probably
+				the most useful option), do a combination of both.  The HTTP Server has the ability to
+				do a two-pass start up, where in the first pass DHCP is used to obtain all of your
+				network addresses, including an IP address.  Then the HTTP Server saves these values
+				and restarts the network stack using a static IP that you assign while maintaining
+				the other automatically obtained addresses.  However, you don't assign the whole
+				static IP, only the last octet of the IP as typically the first three octets are
+				your subnet, and you typically don't know what those are until DHCP tells you.  By
+				limiting your static assignment to only the last octet of the IP address, you can
+				usually pick a value that will work on most networks seamlessly no matter what the
+				subnet is.  This isn't perfect, as subnets don't have to be three octets long, but as
+				a general rule with most commonly available routers, this works very well out of the
+				box.
+
+				<br><br>
+				
+				In the file <code>HTTPServerConfig.h</code>, there is a section for your network
+				values.  The following describes how to set them:
+
+				<br>
+				
+				<ol>
+					<li><code>ipMyStatic</code>:
+						<br>
+						<code>ipMyStatic</code> is a structure with four members.  If all the members
+						are set to zero, as would be accomplished with the following statement
+<pre>
+ipMyStatic = {0,0,0,0};
+</pre>
+						then DHCP will be used to obtain your network parameters.  If any of the
+						members are nonzero, this will be the static IP and you must set all of
+						your other network parameters manually; that is, you must
+						set <code>ipGateway</code>, <code>subnetMask</code>,
+						and <code>rgIpDNS</code>.</li>
+					<li><code>localStaticIP</code>:
+						<br> This value only has meaning if <code>ipMyStatic == {0,0,0,0}</code>; that
+						is, you are using DHCP to obtain your network parameters.
+						If <code>localStaticIP</code> is nonzero (i.e., if <code>localStaticIP !=
+						0</code>), it will become the last octet in your IP address, the first three
+						octets having been obtained from DHCP.  Specifically, the first three octets
+						of <code>ipGateway</code> are used.  So, if your
+						<code>ipGateway</code> address comes back as 192.168.2.1, and you
+						specified <code>localStaticIP = 200</code>, your static IP address will be
+						192.168.2.200.  If, however, you specify <code>localStaticIP = 0</code>, then
+						your IP address will be that assigned by DHCP. <code>localStaticIP</code> must
+						be in the range of 0 to 255.</li>
+					<li><code>listeningPort</code>:
+						<br> This is the port on which HTTPServer will listen.  Typically, HTTP servers
+						listen on port 80, and that would be the most likely port to pick&mdash;except,
+						especially in cases where you want to port forward through a gateway, you may
+						wish to use another port number.  Of course, if you use a port number other
+						than 80, the browser wishing to access the HTTPServer may require you to
+						specify the protocol (<code>http:</code>) as well as the port number.  For
+						example, if you decide to use port 44000 and your IP address is 192.168.2.200,
+						a browser wishing to access the HTTPServer may require the fully specified
+						URL, <code>http://192.168.2.200:44000</code>.  Because the port is not the
+						default http port, the browser may not know what protocol to use and thus must
+						be provided with this information.  Obviously, your IP address may exist in a
+						DNS server somewhere and the IP address can be replaced with a DNS name, but
+						you may still have to specify the protocol and port
+						(e.g., <code>http://myserver.http.com:44000</code>).
+
+						<br><br>
+
+						If you decide to pick a port number other than 80, you need to pick wisely, as
+						you don't want to conflict with predefined ports like port 23 (Telnet).  We
+						won't discuss the many ports that are assigned number by the Internet Assigned
+						Numbers Authority (IANA).  Suffice it to say that ports in the range between
+						44000 to 47000 are mostly unassigned ports, so pick one in that range.  Valid
+						ports are from 1 to 65535.</li>
+					<li><code>cMaxSocketsToListen</code>:
+						<br> This is the number of sockets, or connections, you can handle
+						concurrently. You can specify as many sockets as you have memory for;
+						however, all of the sockets will share the underlying socket buffer memory.
+						It is not unusual for a single browser session to use more than
+						one socket, so a good number to use is between six and ten. Most browsers are very
+						tolerant in that they open connections for each URL needed to render the page,
+						such as <code>.jpg</code>s, but if the connection fails, it will keep trying
+						until other connections are free. How this works varies from browser to
+						browser, and you may only <em>need</em> one socket to work, but we would
+						suggest having at least three sockets available for each browser session.  An
+						interesting thing to do is look at the serial monitor as your page is rendered
+						so that you can watch the sockets connect and disconnect; it can be very
+						surprising to see the number of sockets consumed to render one page, be it
+						serially or concurrently.</li>
+					<li>
+						<code>ipGateway</code>, <code>subnetMask,rgIpDNS</code>:
+						<br> One way or another, these must be set correctly.  If you
+						specify <code>ipMyStatic == {0,0,0,0}</code>, DHCP will set them.
+						If <code>ipMyStatic != {0,0,0,0}</code>, you must manually set these values.
+						If you set them manually, make sure they are correct, or the HTTPServer will
+						appear to hang, as it probably can't succeed at some or all network operations.
+						rgIpDNS is an array of DNS servers to use. Buy 
+						default you may have up to 4 DNS servers. Some good DNS servers to know about are the Google Public DNS servers at
+						8.8.8.8 and 8.8.4.4; they are free and they work well. While rgIpDNS is </li>
+				</ol>
+
+				<b>Provide the WiFi Security Information:</b>
+				
+				Since the HTTPServer requires an SD card reader and a network connection, the easiest
+				hardware configuration to use is the WiFiShield, which offers both on one shield.
+				Another really great choice is the WF32. These are both WiFi products.  The only
+				non-WiFi (hard-wired) supported board is the chipKIT Pro MX7 with a PmodSD. (If you are not
+				using WiFi, you don't need to be concerned with this section: leave it as it is.)
+
+				<br>
+				
+				<ol>
+					<li><code>SSID</code>:<br> Service set identifier: this is the name of the WiFi
+						network. It is a name up to 32 characters long. You can use the DWIFIcK
+						WiFiScan example to sniff the air to see what networks are available; or more
+						typically, you would just ask whoever set up the WiFi router for its name.</li>
+					<li>WiFi security mode. Uncomment only one or none of the <code>#defined</code>
+						security modes and fill in the related security information for the mode
+						selected:<ul>
+							<li><code>USE_WPA2_PASSPRASE</code>:
+								<br> Select this if you are using WPA passphrase security.  This is
+								probably the most likely security to be in use.  You will need to ask
+								whoever set up the WiFi router for the passphrase.  The passphrase can be
+								up to 64 characters long.  Understand that using a passphrase may be
+								very slow to connect (up to 40 seconds), as the MRF24WG0MA radio may need to
+								calculate the PSK (pre-shared key) key, which is very
+								time-consuming.</li>
+							<li><code>USE_WPA2_KEY</code>
+								<br> This is the PSK key which you can enter directly instead of having
+								the radio calculate it.  Using the key will greatly reduce the connect
+								time.  If you start with a passphrase, allow the HTTPServer to connect
+								and allow the radio to calculated the PSK key for you.  Then, if you have
+								the serial monitor open, you can see the printout of the calculated key.
+								For example, you would see something such as the following:
+
+								<br>
+
+<pre>
+Key Type: 5
+
+Key Length: 32
+
+Key Value: 27:2C:89:CC:E9:56:31:1E:3B:AD:79:F7:1D:C4:B9:05:7A:34:4C:3E:B5:FA:38:C2:0F:0A:B0:90:DC:62:AD:58
+</pre>
+
+									<br>
+
+									You can grab that key and fill in the key structure, using this setting
+									instead of the slower passphrase setting.  The key in this particular
+									example is what pertains when the SSID is
+									<code>chipKIT</code> and the passphrase is <code>Digilent</code>; by
+									taking the calculated value as printed in the serial monitor
+									using <code>USE_WPA2_PASSPRASE</code>, you can fill in
+									the <code>USE_WPA2_KEY</code> key structure as follows:
+									
+									<br>
+<pre>
+DWIFIcK::WPA2KEY key = { 0x27, 0x2C, 0x89, 0xCC, 0xE9, 0x56, 0x31, 0x1E,
+						0x3B, 0xAD, 0x79, 0xF7, 0x1D, 0xC4, 0xB9, 0x05,
+						0x7A, 0x34, 0x4C, 0x3E, 0xB5, 0xFA, 0x38, 0xC2,
+						0x0F, 0x0A, 0xB0, 0x90, 0xDC, 0x62, 0xAD, 0x58 };
+</pre>
+								
+									<br>
+								</li>
+								<li><code>USE_WEP40</code>, <code>USE_WEP104</code>:
+									<br> We do not recommend using WEP.  However, if you must, you can
+									specify your key and key index in these structures.</li>
+								<li>To connect to an open network, comment out all of the security 
+									modes; no additional information is needed beyond the SSID.</li>
+							</ul>
+						</li>
+					</ol>
+
+
+					<h2>Step 4</h2>
+
+					<b>Copy your content to the SD card.</b>
+					
+					The SD card should be formatted as FAT32.
+					Only <a href="http://en.wikipedia.org/wiki/8.3_filename" target="blank">8.3
+					filenames</a> are supported, so no long filenames!  Each file should have a
+					no more than a three-letter extension that represents the type.  For example, this
+					would be &ldquo;<code>.htm</code>&rdquo; for an HTML file or
+					&ldquo;<code>.jpg</code>&rdquo; for a JPEG file.  Load your SD card on to your PC and
+					erase the SD card.  Then, copy the files from the content directory onto the root of
+					the SD card. <code>HomePage.htm</code> must exist, and must exist at the root.  When
+					done copying, make sure to eject the SD card before pulling it from the PC; you want
+					to ensure that all files were flushed to the card before removing it.  Then stick
+					your SD card into the reader on your board.  With a 16 GB SD card there is
+					lots of room for content!
+
+					<h2>Step 5</h2>
+
+					<b>Build and run the server.</b>
+					
+					Connect your FPGA/Zynq board to your PC.  Assuming you have already started Xilinx SDK and
+					have the <code>deWebServer</code> project open, select the appropriate board and COM
+					port, build, and upload the project.  Once uploaded, start a serial monitor at 115200
+					baud and you will see a bunch of useful/interesting diagnostic messages.  When the
+					server is up and running, it will print the IP and port it is listening on.  Go to a
+					browser and connect to the deWebServer.  In the example below, use the address line
+					of <code>http://192.168.1.224</code> (port 80 is implied by the use of the http
+					protocol without a port specification).
+
+					<br><br>
+
+<pre>
+Dynamic begin
+Is Linked to the physical network
+Link status: 0x0
+Network Initialized
+Static begin
+Is Linked to the physical network
+Link status: 0x0
+Network Initialized
+UTC: May 14, 2014 @ 21:52:08
+
+My IP: 192.168.1.224
+Gateway IP: 192.168.1.129
+Subnet mask: 255.255.255.0
+Dns0: IP: 192. 168.1.129
+Dns1: IP: 8.8.8.8
+Dns2: IP: 8.8.4.4
+Dns3: IP: 8.8.8.8
+My MAC: 00:1E:C0:17:6C:A7
+
+5 Sockets Listening on IP: 192.168.1.224:80
+</pre>
+						
+<br>
+						
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

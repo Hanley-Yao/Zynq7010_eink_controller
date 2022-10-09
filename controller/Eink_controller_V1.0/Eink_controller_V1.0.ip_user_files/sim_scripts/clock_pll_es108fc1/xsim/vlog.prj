@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../ipstatic" \
+"../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_es108fc1/clock_pll_es108fc1_clk_wiz.v" \
+"../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_es108fc1/clock_pll_es108fc1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

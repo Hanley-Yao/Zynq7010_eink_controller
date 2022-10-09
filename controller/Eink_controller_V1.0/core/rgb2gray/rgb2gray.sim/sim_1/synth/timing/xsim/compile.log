@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim/rgb2gray_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.srcs/sim_1/new/rgb2gray_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray_tb

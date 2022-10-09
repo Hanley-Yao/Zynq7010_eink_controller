@@ -1,0 +1,10 @@
+22:34:51 **** Build of configuration Debug for project FSBL_JTAG ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+22:34:53 Build Finished (took 1s.323ms)
+

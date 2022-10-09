@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="Serial Terminal"/>
+		<section name="SettingsPanelControl">
+			<section name="Git Bash">
+			</section>
+			<section name="Serial Terminal">
+				<item key="SerialLinePanel.selectedTTYDevice.Windows 10" value="COM6"/>
+				<item key="SerialLinePanel.selectedTTYSpeedRate.Windows 10" value="115200"/>
+				<item key="SerialLinePanel.selectedTTYDatabits.Windows 10" value="8"/>
+				<item key="SerialLinePanel.selectedTTYParity.Windows 10" value="None"/>
+				<item key="SerialLinePanel.selectedTTYStopbits.Windows 10" value="1"/>
+				<item key="SerialLinePanel.selectedTTYFlowControl.Windows 10" value="None"/>
+				<item key="SerialLinePanel.selectedTTYTimeout.Windows 10" value="5"/>
+			</section>
+		</section>
+	</section>
+</section>

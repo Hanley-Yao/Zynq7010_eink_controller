@@ -1,0 +1,1875 @@
+!SESSION 2022-10-09 17:08:01.945 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\.metadata\.bak_0.log
+Created Time: 2022-10-09 17:09:36.114
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.114
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.115
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.117
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.187
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.188
+!MESSAGE XSCT Command: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.191
+!MESSAGE XSCT command with result: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.192
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.390
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.391
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.396
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.397
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.404
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:36.405
+!MESSAGE XSCT Command: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.798
+!MESSAGE XSCT command with result: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.799
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.822
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.948
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.957
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:44.958
+!MESSAGE XSCT Command: [con], Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:09:45.007
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:14.563
+!MESSAGE XSCT Command: [platform read {C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/platform.spr}], Thread: Worker-11: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:15.930
+!MESSAGE XSCT command with result: [platform read {C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/platform.spr}], Result: [null, ]. Thread: Worker-11: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-10-09 17:28:17.974
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-10-09 17:28:17.975
+!MESSAGE Preference loaded using local preference: C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:20.952
+!MESSAGE XSCT Command: [platform config -updatehw {C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/eink_controller_et068sc1_img_demo.xsa}], Thread: Worker-2: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:23.275
+!MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/eink_controller_et068sc1_img_demo.xsa}], Result: [null, ]. Thread: Worker-2: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:57.687
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:57.707
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:57.708
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.340
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.348
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss ], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.355
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.356
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.364
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-10-09 17:28:59.366
+!MESSAGE Generating MD5 hash for file: C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\ps_system\export\ps_system\sw\ps_system\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.371
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:28:59.376
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.170
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.173
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, {"device": "7z010",
+"family": "zynq",
+"timestamp": "Sun Oct  2 11:38:09 2022",
+"vivado_version": "2020.2",
+"part": "xc7z010clg400-1",
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.213
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-157
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.216
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-157
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.311
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.315
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.317
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\frame_buffer\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.339
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\frame_buffer\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:12.343
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\frame_buffer\_ide\psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.239
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\frame_buffer\_ide\psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.290
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.299
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, {"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"uiFDMA_0": {"hier_name": "uiFDMA_0",
+"type": "uiFDMA",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"uiFDMA_1": {"hier_name": "uiFDMA_1",
+"type": "uiFDMA",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"uiFDMA_2": {"hier_name": "uiFDMA_2",
+"type": "uiFDMA",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"util_vector_logic_0": {"hier_name": "util_vector_logic_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.300
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.305
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.306
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.313
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.314
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.325
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x0FFFFFFF",
+"size": "267386880",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.325
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.329
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.329
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.332
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.333
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.338
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.339
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.342
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.343
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.346
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.347
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.351
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.351
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.356
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.356
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.366
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.367
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.377
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x0FFFFFFF",
+"size": "267386880",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.378
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.381
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.382
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.385
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.386
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.389
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.389
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.392
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.393
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.396
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.396
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.399
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.400
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.404
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.405
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa bit], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.409
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa bit], Result: [null, eink_controller_et068sc1_img_demo.bit]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.409
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.412
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.413
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.650
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.651
+!MESSAGE XSCT Command: [version -server], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.653
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.653
+!MESSAGE XSCT Command: [version], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.654
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.655
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.659
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.659
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.672
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.673
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.677
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.678
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.690
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.691
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.696
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.696
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.709
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.714
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.715
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.728
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.729
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.733
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.733
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.746
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.746
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.751
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.752
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.764
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.764
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.777
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.778
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.790
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.791
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.797
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.798
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.839
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:16.840
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.846
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.859
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.864
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.865
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.877
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.877
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.901
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:19.901
+!MESSAGE XSCT Command: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.113
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.130
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.154
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.154
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.186
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, eink_controller_et068sc1_img_demo_5]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.187
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.189
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.190
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.199
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.200
+!MESSAGE XSCT Command: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.203
+!MESSAGE XSCT command with result: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.203
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.419
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.420
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.425
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.426
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.433
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:21.434
+!MESSAGE XSCT Command: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.638
+!MESSAGE XSCT command with result: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.639
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.658
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.732
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.745
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.746
+!MESSAGE XSCT Command: [con], Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:29:29.776
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-12: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.834
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-232
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.837
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-232
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.853
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.872
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.873
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.880
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.881
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.882
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.883
+!MESSAGE XSCT Command: [version], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.884
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.884
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.889
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.890
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.903
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.904
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.908
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.909
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.922
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.923
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.928
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.929
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.943
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.943
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.949
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.949
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.963
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.964
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.969
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.970
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.987
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.988
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.993
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:04.994
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.007
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.007
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.021
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.021
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.023
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.023
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.035
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.036
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.083
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:05.083
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.098
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.108
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.112
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.113
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.125
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.126
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.151
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:08.152
+!MESSAGE XSCT Command: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.363
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.376
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.385
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.386
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.391
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, eink_controller_et068sc1_img_demo_5]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.392
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.393
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.393
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.400
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.401
+!MESSAGE XSCT Command: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.404
+!MESSAGE XSCT command with result: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.404
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.659
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.660
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.664
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.665
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.671
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:09.671
+!MESSAGE XSCT Command: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:17.917
+!MESSAGE XSCT command with result: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:17.918
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:17.959
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:18.006
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:18.028
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:18.028
+!MESSAGE XSCT Command: [con], Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:18.049
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-13: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.836
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-282
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.839
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-282
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.855
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.859
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.860
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.868
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.869
+!MESSAGE XSCT Command: [version -server], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.871
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.871
+!MESSAGE XSCT Command: [version], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.873
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.873
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.878
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.879
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.893
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.893
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.898
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.899
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.910
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.911
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.916
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.916
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.930
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.930
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.936
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.936
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.950
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.950
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.956
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.956
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.970
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.971
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.976
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.977
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.990
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:21.991
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.004
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent PYNQ 235179734731A" && level == 0}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.004
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.005
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.006
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.016
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.016
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.068
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:22.069
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.079
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.098
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.102
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent PYNQ 235179734731A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.103
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.115
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.116
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.139
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent PYNQ 235179734731A" && level==0 && jtag_device_ctx=="jsn-PYNQ-235179734731A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:25.140
+!MESSAGE XSCT Command: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.355
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/bitstream/eink_controller_et068sc1_img_demo.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.380
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.389
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.390
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.395
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/hw/eink_controller_et068sc1_img_demo.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, eink_controller_et068sc1_img_demo_5]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.395
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.396
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.397
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.403
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.403
+!MESSAGE XSCT Command: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.406
+!MESSAGE XSCT command with result: [source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.407
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.601
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.602
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.606
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.607
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.613
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:26.614
+!MESSAGE XSCT Command: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.874
+!MESSAGE XSCT command with result: [dow C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/frame_buffer/Debug/frame_buffer.elf], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.875
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.895
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.966
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.980
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:34.981
+!MESSAGE XSCT Command: [con], Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:30:35.001
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-14: Launching SystemDebugger_frame_buffer_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:33:17.206
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-332
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-10-09 17:33:17.209
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-332

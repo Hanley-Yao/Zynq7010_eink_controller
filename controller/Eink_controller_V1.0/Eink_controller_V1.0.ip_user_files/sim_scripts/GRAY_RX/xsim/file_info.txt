@@ -1,0 +1,2 @@
+GRAY_RX.v,verilog,xil_defaultlib,../../../../Eink_controller_V1.0.gen/sources_1/ip/GRAY_RX/sim/GRAY_RX.v,incdir="../../../../Eink_controller_V1.0.gen/sources_1/ip/GRAY_RX/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

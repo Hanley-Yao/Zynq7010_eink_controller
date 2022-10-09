@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_MIPI_DPHY_Receiver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dphy_types" />
+            <top_module name="tb_MIPI_DPHY_Receiver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="101084134000fs"></ZoomStartTime>
+      <ZoomEndTime time="102472134001fs"></ZoomEndTime>
+      <Cursor1Time time="102968134000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="47" />
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/RefClk" type="logic">
+      <obj_property name="ElementShortName">RefClk</obj_property>
+      <obj_property name="ObjectShortName">RefClk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aRst" type="logic">
+      <obj_property name="ElementShortName">aRst</obj_property>
+      <obj_property name="ObjectShortName">aRst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/DPHY_DataHS" type="array">
+      <obj_property name="ElementShortName">DPHY_DataHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">DPHY_DataHS[0:1]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/DPHY_DataLP" type="array">
+      <obj_property name="ElementShortName">DPHY_DataLP[0:1][1:0]</obj_property>
+      <obj_property name="ObjectShortName">DPHY_DataLP[0:1][1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/DPHY_ClkHS" type="logic">
+      <obj_property name="ElementShortName">DPHY_ClkHS</obj_property>
+      <obj_property name="ObjectShortName">DPHY_ClkHS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/DPHY_ClkLP" type="array">
+      <obj_property name="ElementShortName">DPHY_ClkLP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DPHY_ClkLP[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/RxDDRClkHS" type="logic">
+      <obj_property name="ElementShortName">RxDDRClkHS</obj_property>
+      <obj_property name="ObjectShortName">RxDDRClkHS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/RxByteClkHS" type="logic">
+      <obj_property name="ElementShortName">RxByteClkHS</obj_property>
+      <obj_property name="ObjectShortName">RxByteClkHS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aRxClkActiveHS" type="logic">
+      <obj_property name="ElementShortName">aRxClkActiveHS</obj_property>
+      <obj_property name="ObjectShortName">aRxClkActiveHS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aClkStopstate" type="logic">
+      <obj_property name="ElementShortName">aClkStopstate</obj_property>
+      <obj_property name="ObjectShortName">aClkStopstate</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aClkUlpsActiveNot" type="logic">
+      <obj_property name="ElementShortName">aClkUlpsActiveNot</obj_property>
+      <obj_property name="ObjectShortName">aClkUlpsActiveNot</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aRxUlpsClkNot" type="logic">
+      <obj_property name="ElementShortName">aRxUlpsClkNot</obj_property>
+      <obj_property name="ObjectShortName">aRxUlpsClkNot</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aClkErrControl" type="logic">
+      <obj_property name="ElementShortName">aClkErrControl</obj_property>
+      <obj_property name="ObjectShortName">aClkErrControl</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aClkEnable" type="logic">
+      <obj_property name="ElementShortName">aClkEnable</obj_property>
+      <obj_property name="ObjectShortName">aClkEnable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aClkForceRxmode" type="logic">
+      <obj_property name="ElementShortName">aClkForceRxmode</obj_property>
+      <obj_property name="ObjectShortName">aClkForceRxmode</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxStopstate" type="array">
+      <obj_property name="ElementShortName">aDxStopstate[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxStopstate[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxForceRxmode" type="array">
+      <obj_property name="ElementShortName">aDxForceRxmode[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxForceRxmode[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxEnable" type="array">
+      <obj_property name="ElementShortName">aDxEnable[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxEnable[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxUlpsActiveNot" type="array">
+      <obj_property name="ElementShortName">aDxUlpsActiveNot[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxUlpsActiveNot[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxRxValidHS" type="array">
+      <obj_property name="ElementShortName">rbDxRxValidHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rbDxRxValidHS[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxRxActiveHS" type="array">
+      <obj_property name="ElementShortName">rbDxRxActiveHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rbDxRxActiveHS[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxRxSyncHS" type="array">
+      <obj_property name="ElementShortName">rbDxRxSyncHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rbDxRxSyncHS[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxErrEsc" type="array">
+      <obj_property name="ElementShortName">aDxErrEsc[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxErrEsc[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/aDxErrControl" type="array">
+      <obj_property name="ElementShortName">aDxErrControl[0:1]</obj_property>
+      <obj_property name="ObjectShortName">aDxErrControl[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxErrSotHS" type="array">
+      <obj_property name="ElementShortName">rbDxErrSotHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rbDxErrSotHS[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxErrSotSyncHS" type="array">
+      <obj_property name="ElementShortName">rbDxErrSotSyncHS[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rbDxErrSotSyncHS[0:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/rbDxRxDataHS" type="array">
+      <obj_property name="ElementShortName">rbDxRxDataHS[0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rbDxRxDataHS[0:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/fClockReady" type="other">
+      <obj_property name="ElementShortName">fClockReady</obj_property>
+      <obj_property name="ObjectShortName">fClockReady</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/fData0Ready" type="other">
+      <obj_property name="ElementShortName">fData0Ready</obj_property>
+      <obj_property name="ObjectShortName">fData0Ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/fData1Ready" type="other">
+      <obj_property name="ElementShortName">fData1Ready</obj_property>
+      <obj_property name="ObjectShortName">fData1Ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kUI" type="other">
+      <obj_property name="ElementShortName">kUI</obj_property>
+      <obj_property name="ObjectShortName">kUI</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kNoOfDataLanes" type="other">
+      <obj_property name="ElementShortName">kNoOfDataLanes</obj_property>
+      <obj_property name="ObjectShortName">kNoOfDataLanes</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kRefClkPeriod" type="other">
+      <obj_property name="ElementShortName">kRefClkPeriod</obj_property>
+      <obj_property name="ObjectShortName">kRefClkPeriod</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kTRst" type="other">
+      <obj_property name="ElementShortName">kTRst</obj_property>
+      <obj_property name="ObjectShortName">kTRst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_LPX" type="other">
+      <obj_property name="ElementShortName">kT_LPX</obj_property>
+      <obj_property name="ObjectShortName">kT_LPX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_HS_PREPARE" type="other">
+      <obj_property name="ElementShortName">kT_HS_PREPARE</obj_property>
+      <obj_property name="ObjectShortName">kT_HS_PREPARE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_HS_ZERO" type="other">
+      <obj_property name="ElementShortName">kT_HS_ZERO</obj_property>
+      <obj_property name="ObjectShortName">kT_HS_ZERO</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_HS_TRAIL" type="other">
+      <obj_property name="ElementShortName">kT_HS_TRAIL</obj_property>
+      <obj_property name="ObjectShortName">kT_HS_TRAIL</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_HS_EXIT" type="other">
+      <obj_property name="ElementShortName">kT_HS_EXIT</obj_property>
+      <obj_property name="ObjectShortName">kT_HS_EXIT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kTInit" type="other">
+      <obj_property name="ElementShortName">kTInit</obj_property>
+      <obj_property name="ObjectShortName">kTInit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_CLK_PREPARE" type="other">
+      <obj_property name="ElementShortName">kT_CLK_PREPARE</obj_property>
+      <obj_property name="ObjectShortName">kT_CLK_PREPARE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_CLK_ZERO" type="other">
+      <obj_property name="ElementShortName">kT_CLK_ZERO</obj_property>
+      <obj_property name="ObjectShortName">kT_CLK_ZERO</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_CLK_PRE" type="other">
+      <obj_property name="ElementShortName">kT_CLK_PRE</obj_property>
+      <obj_property name="ObjectShortName">kT_CLK_PRE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_CLK_POST" type="other">
+      <obj_property name="ElementShortName">kT_CLK_POST</obj_property>
+      <obj_property name="ObjectShortName">kT_CLK_POST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kT_CLK_TRAIL" type="other">
+      <obj_property name="ElementShortName">kT_CLK_TRAIL</obj_property>
+      <obj_property name="ObjectShortName">kT_CLK_TRAIL</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/kSyncSeq" type="array">
+      <obj_property name="ElementShortName">kSyncSeq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kSyncSeq[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_MIPI_DPHY_Receiver/data_stim" type="array">
+      <obj_property name="ElementShortName">data_stim[0:16][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_stim[0:16][15:0]</obj_property>
+   </wvobject>
+</wave_config>

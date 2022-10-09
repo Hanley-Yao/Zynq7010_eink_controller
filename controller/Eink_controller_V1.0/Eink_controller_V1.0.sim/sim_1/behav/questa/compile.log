@@ -1,0 +1,63 @@
+# do {eink_controller_img_demo_tb_compile.do}
+# ** Warning: (vlib-34) Library already exists at "questa_lib/work".
+# ** Warning: (vlib-34) Library already exists at "questa_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "questa_lib/msim/xil_defaultlib".
+# QuestaSim-64 vmap 2020.1 Lib Mapping Utility 2020.01 Jan 28 2020
+# vmap xil_defaultlib questa_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 01:33:46 on Oct 02,2022
+# vlog -incr -work xil_defaultlib "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/bd/ps_system/ipshared/ec67/hdl" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/bd/ps_system/ipshared/34f8/hdl" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_ed052tc4" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_et047tc1" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_ed097tc2" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_es108fc1" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_et017qc4" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/clock_pll_et073tc1" "+incdir+../../../../Eink_controller_V1.0.gen/sources_1/ip/rgb_clk" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" ../../../../Eink_controller_V1.0.gen/sources_1/ip/blk_line_buf/sim/blk_line_buf.v ../../../../Eink_controller_V1.0.gen/sources_1/ip/blk_mem_gen_rgb/sim/blk_mem_gen_rgb.v ../../../../Eink_controller_V1.0.gen/sources_1/ip/blk_mem_gen_gray/sim/blk_mem_gen_gray.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/CTM.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/addr_sw.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/config_reg_es108fc1.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/data_mgr.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/delay_cnt.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/display_mgr.v ../../../../Eink_controller_V1.0.srcs/sim_1/new/div_2.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/eink_controller_et073tc1_img_demo.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/fdma_clear.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/fdma_r_data.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/fdma_r_gray.v ../../../../Eink_controller_V1.0.srcs/sim_1/new/fdma_sim_slave.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/fdma_w_data.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/fdma_w_gray.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/frame_ctrl.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/frame_processor.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/frame_timing.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/i2c_top.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/iic_config.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/level2pulse.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/outRGB.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/rd_image.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/rgb2gray.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/system_mgr.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/tps65185_ctrl.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/v_algo.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/vga_shift.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/xpm_cdc_async_rst_n.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/xpm_fifo_rdata_buf.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/xpm_fifo_rgray_buf.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/xpm_fifo_wdata_buf.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/xpm_fifo_wgray_buf.v ../../../../Eink_controller_V1.0.srcs/sources_1/new/eink_controller_img_demo_tb.v 
+# -- Skipping module blk_line_buf
+# -- Skipping module blk_mem_gen_rgb
+# -- Skipping module blk_mem_gen_gray
+# -- Skipping module CTM_E
+# -- Skipping module CTM_F
+# -- Skipping module addr_sw
+# -- Skipping module config_reg_es108fc1
+# -- Skipping module data_mgr
+# -- Skipping module delay_cnt
+# -- Skipping module display_mgr
+# -- Skipping module div_2
+# -- Skipping module eink_controller_et073tc1_img_demo
+# -- Skipping module fdma_clear
+# -- Skipping module fdma_r_data
+# -- Skipping module fdma_r_gary
+# -- Skipping module fdma_sim_slave
+# -- Skipping module fdma_w_data
+# -- Skipping module fdma_w_gray
+# -- Skipping module frame_ctrl
+# -- Skipping module frame_processor
+# -- Skipping module frame_timing
+# -- Skipping module i2c_top
+# -- Skipping module iic_config
+# -- Skipping module level2pulse
+# -- Skipping module outRGB
+# -- Skipping module rd_image
+# -- Skipping module rgb2gray
+# -- Skipping module sync_h2lck
+# -- Skipping module system_mgr
+# -- Skipping module tps65185_ctrl
+# -- Skipping module v_algo
+# -- Skipping module vga_shift
+# -- Skipping module xpm_cdc_async_rst_n
+# -- Skipping module xpm_fifo_rdata_buf
+# -- Skipping module xpm_fifo_rgray_buf
+# -- Skipping module xpm_fifo_wdata_buf
+# -- Skipping module xpm_fifo_wgray_buf
+# -- Skipping module eink_controller_img_demo_tb
+# 
+# Top level modules:
+# 	CTM_E
+# 	eink_controller_img_demo_tb
+# End time: 01:33:46 on Oct 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 01:33:47 on Oct 02,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 01:33:47 on Oct 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

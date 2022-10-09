@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PmodGPS
+	OPTION supported_peripherals = (PmodGPS);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.1;
+	OPTION NAME = PmodGPS;
+END DRIVER

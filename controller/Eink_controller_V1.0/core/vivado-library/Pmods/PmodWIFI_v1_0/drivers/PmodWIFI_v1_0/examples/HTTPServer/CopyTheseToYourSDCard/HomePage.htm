@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTTP Server Example</title>
+	</head>
+
+	<body>
+		<div style="width:500px; margin:0px auto; text-align:center" >
+			<img alt="Digilent Logo" height="112" src="Digilent.png" width="500" />
+			<h1 >DEIPcK HTTP Example Server</h1>
+			<h2>by Keith Vogel</h2>
+		</div>
+		<p>
+		    The HTTP Server example abstracts the complexities of creating HTTP Web server hosting
+		    pages that can be written in almost any HTML editor. Once created, just copy your
+		    pages onto an SD card and plug it into the SD card reader on your chipKIT™
+		    board. Restart the server. All links specified in the pages should be relative to the
+		    current page, or relative to the root of the SD file system. The default page is
+		    called <code>HomePage.htm</code>, and this page must exist at the root of the SD file
+		    system. All files on the SD file system must be limited to the
+		    <a href="http://en.wikipedia.org/wiki/8.3_filename" target="blank">8.3 file naming
+		    convention</a>; appropriate extensions should be used on your files.  The SD file
+		    system can contain HTML pages, JPEGs, GIFs, ICOs, TXT, MPEGs, WMVs, JSs, and XMLs for
+		    download to the browser; however, only the two/three-letter extensions may be used for
+		    each file type. The content type specified to the requesting browser is determined by
+		    the two/three-letter file extension.
+		</p>
+		<p>
+		    In addition to pages stored on the SD card, it is possible to add active pages that
+		    are dynamically created by writing a <code>compose</code> function and specifying the
+		    accessing URL to the server.  These dynamic pages can respond to browser <code>HTTP
+		    GET</code>s, <code>PUT</code>s, or <code>POST</code>s and can dynamically interact
+		    with the resources on the chipKIT board.  One example is to create a dynamic page
+		    that talks to a camera that is connected to the board, and then have it take a
+		    picture and compose a JPEG picture. In designing your HTML pages you can use URLs
+		    that reference local SD files, dynamically created pages, or absolute URLs to other
+		    sites embedded in your HTML pages. For example, if you want to see some locally
+		    hosted pages on the SD card, checkout the page about <a href="aboutck.htm">The
+		    chipKIT MPIDE System</a>.  Or, you can go to another site like the Digilent products
+		    page at <a href="http://www.digilentinc.com/">Digilent Inc.</a>
+		</p>
+		<p>
+            For an example of how to use a Form 
+            to read and modify the GPIO pins on the board, checkout <a href="PinsPage.htm">Read and Modify Board Pins</a>.
+		</p>
+		<p>
+		    The HTTP Server uses a highly cooperative embedded programming model where multiple
+		    connections and pages can be processed concurrently.  To ensure this works reliably,
+		    any code written for the server’s <code>loop()</code> function or composing pages
+		    should be written as a state machine, with each state only doing a small portion of
+		    work.  The HTTP server loops repeatedly, calling your code as well as the HTTP server
+		    code.  As part of the HTTP server code, it listens for connections.  When a
+		    connection is made, the appropriate <code>compose()</code> function is called based
+		    on the URL.  If no URL matches a <code>compose</code> page, the
+		    default <code>compose()</code> function is called.  Typically, the SD file system
+		    compose function is used as the default <code>compose()</code> function, as this will
+		    look on the SD file system for a matching file.  If no file exists, the
+		    SD <code>compose()</code> function will return an &ldquo;HTTP File Not Found
+		    (404)&rdquo; error to the browser.
+		</p>
+		<p>
+		    For specific information on how to set up this example server,
+		    goto <a href="SrvSetup.htm">SrvSetup.htm</a> or <a href="SrvSetupFPGA.htm">SrvSetupFPGA.htm</a> for FPGAs running Microblaze or Zynq.
+		</p>
+	</body>
+</html>

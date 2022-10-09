@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:abstractionDefinition xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>digilentinc.com</spirit:vendor>
+  <spirit:library>interface</spirit:library>
+  <spirit:name>pmod_rtl</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busType spirit:vendor="digilentinc.com" spirit:library="interface" spirit:name="pmod" spirit:version="1.0"/>
+  <spirit:ports>
+    <spirit:port>
+      <spirit:logicalName>PIN1_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 1 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN1_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 1 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN1_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 1 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+   <spirit:port>
+      <spirit:logicalName>PIN2_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 2 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN2_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 2 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN2_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 2 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN3_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 3 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN3_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 3 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN3_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 3 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN4_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 4 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN4_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 4 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN4_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 4 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN7_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 7 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN7_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 7 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN7_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 7 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN8_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 8 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN8_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 8 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN8_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 8 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN9_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 9 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN9_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 9 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN9_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 9 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN10_I</spirit:logicalName>
+      <spirit:description>Pmod Pin 10 in</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>in</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN10_O</spirit:logicalName>
+      <spirit:description>Pmod Pin 10 out</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+	<spirit:port>
+      <spirit:logicalName>PIN10_T</spirit:logicalName>
+      <spirit:description>Pmod Pin 10 tristate</spirit:description>
+      <spirit:wire>
+        <spirit:onMaster>
+          <spirit:width>1</spirit:width>
+          <spirit:direction>out</spirit:direction>
+        </spirit:onMaster>
+      </spirit:wire>
+    </spirit:port>
+  </spirit:ports>
+  <spirit:vendorExtensions>
+    <xilinx:abstractionDefinitionInfo>
+      <xilinx:displayName>Pmod Interface</xilinx:displayName>
+    </xilinx:abstractionDefinitionInfo>
+  </spirit:vendorExtensions>
+</spirit:abstractionDefinition>

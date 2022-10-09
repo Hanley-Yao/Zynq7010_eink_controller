@@ -1,0 +1,10 @@
+2022-09-11T22:34:51.705712800255-22:34:51 **** Build of configuration Debug for project FSBL_JTAG ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-make[1]: Nothing to be done for 'main-build'.
+00255-
+22:34:53 Build Finished (took 1s.323ms)
+

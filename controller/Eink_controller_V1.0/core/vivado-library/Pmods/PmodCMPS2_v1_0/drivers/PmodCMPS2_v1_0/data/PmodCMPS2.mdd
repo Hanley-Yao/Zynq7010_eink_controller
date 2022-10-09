@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PmodCMPS2
+	OPTION supported_peripherals = (PmodCMPS2);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PmodCMPS2;
+END DRIVER

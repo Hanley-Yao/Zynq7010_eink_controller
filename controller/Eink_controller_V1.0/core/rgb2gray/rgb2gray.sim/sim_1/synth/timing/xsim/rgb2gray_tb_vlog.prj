@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"rgb2gray_tb_time_synth.v" \
+"../../../../../rgb2gray.srcs/sim_1/new/rgb2gray_tb.v" \
+
+# Do not sort compile order
+nosort

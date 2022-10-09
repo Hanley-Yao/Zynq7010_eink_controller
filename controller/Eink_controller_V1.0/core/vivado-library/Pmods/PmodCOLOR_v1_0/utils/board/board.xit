@@ -1,0 +1,51 @@
+package require xilinx::board 1.0
+namespace import ::xilinx::board::*
+
+set instname [current_inst]
+set f_xdc [add_ipfile -usedIn  [list synthesis implementation board ] -force ${instname}_board.xdc]
+puts_ipfile $f_xdc "#--------------------Physical Constraints-----------------\n"
+
+if { [get_project_property BOARD] == "" } {
+    close_ipfile $f_xdc
+    return 
+}
+
+set board_if [get_property PARAM_VALUE.PMOD]
+if { $board_if ne "Custom"} {
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN1_O Pmod_out_pin1_o\
+		PIN1_I Pmod_out_pin1_i\
+		PIN1_T Pmod_out_pin1_t
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN2_O Pmod_out_pin2_o\
+		PIN2_I Pmod_out_pin2_i\
+		PIN2_T Pmod_out_pin2_t
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN3_O Pmod_out_pin3_o\
+		PIN3_I Pmod_out_pin3_i\
+		PIN3_T Pmod_out_pin3_t
+	puts_ipfile $f_xdc {set_property -dict {PULLUP TRUE } [get_ports Pmod_out_pin3_t]}
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN4_O Pmod_out_pin4_o\
+		PIN4_I Pmod_out_pin4_i\
+		PIN4_T Pmod_out_pin4_t
+	puts_ipfile $f_xdc {set_property -dict {PULLUP TRUE } [get_ports Pmod_out_pin4_t]}
+    board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN7_O Pmod_out_pin7_o\
+		PIN7_I Pmod_out_pin7_i\
+		PIN7_T Pmod_out_pin7_t
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN8_O Pmod_out_pin8_o\
+		PIN8_I Pmod_out_pin8_i\
+		PIN8_T Pmod_out_pin8_t
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN9_O Pmod_out_pin9_o\
+		PIN9_I Pmod_out_pin9_i\
+		PIN9_T Pmod_out_pin9_t
+	board_add_tri_state_port_constraints $f_xdc $board_if \
+		PIN10_O Pmod_out_pin10_o\
+		PIN10_I Pmod_out_pin10_i\
+		PIN10_T Pmod_out_pin10_t
+	
+}
+close_ipfile $f_xdc

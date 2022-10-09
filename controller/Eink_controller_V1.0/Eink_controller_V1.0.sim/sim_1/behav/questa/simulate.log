@@ -1,0 +1,338 @@
+# //  Questa Sim-64
+# //  Version 2020.1 win64 Jan 28 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {eink_controller_img_demo_tb_simulate.do}
+# vsim -lib xil_defaultlib eink_controller_img_demo_tb_opt 
+# Start time: 01:34:03 on Oct 02,2022
+# Loading work.eink_controller_img_demo_tb(fast)
+# Loading work.eink_controller_et073tc1_img_demo(fast)
+# Loading work.div_2(fast)
+# Loading work.outRGB(fast)
+# Loading work.rd_image(fast)
+# Loading work.blk_mem_gen_gray(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__1)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_output_reg_stage(fast)
+# Loading work.blk_mem_gen_rgb(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(fast__1)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(fast__1)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__2)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__3)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_output_reg_stage(fast__1)
+# Loading work.vga_shift(fast)
+# Loading work.rgb2gray(fast)
+# Loading work.delay_cnt(fast)
+# Loading work.iic_config(fast)
+# Loading work.i2c_top(fast)
+# Loading unisims_ver.IOBUF(fast)
+# Loading unisims_ver.PULLUP(fast)
+# Loading work.config_reg_es108fc1(fast)
+# Loading work.level2pulse(fast)
+# Loading work.CTM_F(fast)
+# Loading work.level2pulse(fast__1)
+# Loading work.level2pulse(fast__2)
+# Loading work.blk_line_buf(fast)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(fast__2)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(fast__2)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__4)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(fast__5)
+# Loading blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_output_reg_stage(fast__2)
+# Loading blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4(fast)
+# Loading work.tps65185_ctrl(fast)
+# Loading work.frame_processor(fast)
+# Loading work.sync_h2lck(fast)
+# Loading sv_std.std
+# Loading xpm.xpm_cdc_pulse(fast)
+# Loading xpm.xpm_cdc_single(fast)
+# Loading work.addr_sw(fast)
+# Loading work.addr_sw(fast__1)
+# Loading work.fdma_w_gray(fast)
+# Loading work.xpm_fifo_wgray_buf(fast)
+# Loading xpm.xpm_fifo_async(fast)
+# Loading xpm.xpm_fifo_base(fast)
+# Loading xpm.xpm_fifo_rst(fast)
+# Loading xpm.xpm_cdc_sync_rst(fast)
+# Loading xpm.xpm_fifo_reg_bit(fast)
+# Loading xpm.xpm_counter_updn(fast)
+# Loading xpm.xpm_counter_updn(fast__1)
+# Loading xpm.xpm_counter_updn(fast__2)
+# Loading xpm.xpm_counter_updn(fast__3)
+# Loading xpm.xpm_counter_updn(fast__4)
+# Loading xpm.xpm_memory_base(fast)
+# Loading xpm.xpm_cdc_gray(fast)
+# Loading xpm.xpm_fifo_reg_vec(fast)
+# Loading xpm.xpm_cdc_gray(fast__1)
+# Loading xpm.xpm_fifo_reg_vec(fast__1)
+# Loading xpm.xpm_cdc_gray(fast__2)
+# Loading xpm.xpm_fifo_reg_vec(fast__2)
+# Loading xpm.xpm_cdc_gray(fast__3)
+# Loading xpm.xpm_fifo_reg_vec(fast__3)
+# Loading xpm.xpm_counter_updn(fast__5)
+# Loading work.xpm_cdc_async_rst_n(fast)
+# Loading xpm.xpm_cdc_async_rst(fast)
+# Loading work.fdma_r_gary(fast)
+# Loading work.xpm_fifo_rgray_buf(fast)
+# Loading xpm.xpm_fifo_sync(fast)
+# Loading xpm.xpm_fifo_base(fast__1)
+# Loading xpm.xpm_fifo_rst(fast__1)
+# Loading xpm.xpm_counter_updn(fast__6)
+# Loading xpm.xpm_memory_base(fast__1)
+# Loading work.fdma_w_data(fast)
+# Loading work.v_algo(fast)
+# Loading work.xpm_fifo_wdata_buf(fast)
+# Loading xpm.xpm_fifo_sync(fast__1)
+# Loading xpm.xpm_fifo_base(fast__2)
+# Loading xpm.xpm_counter_updn(fast__7)
+# Loading xpm.xpm_counter_updn(fast__8)
+# Loading xpm.xpm_memory_base(fast__2)
+# Loading work.fdma_r_data(fast)
+# Loading work.xpm_fifo_rdata_buf(fast)
+# Loading xpm.xpm_fifo_async(fast__1)
+# Loading xpm.xpm_fifo_base(fast__3)
+# Loading xpm.xpm_counter_updn(fast__9)
+# Loading xpm.xpm_memory_base(fast__3)
+# Loading xpm.xpm_cdc_gray(fast__4)
+# Loading xpm.xpm_fifo_reg_vec(fast__4)
+# Loading xpm.xpm_cdc_gray(fast__5)
+# Loading xpm.xpm_fifo_reg_vec(fast__5)
+# Loading xpm.xpm_cdc_gray(fast__6)
+# Loading work.fdma_clear(fast)
+# Loading work.fdma_sim_slave(fast)
+# Loading work.display_mgr(fast)
+# Loading work.frame_ctrl(fast)
+# Loading work.frame_timing(fast)
+# Loading work.data_mgr(fast)
+# Loading work.system_mgr(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'IMAGE_EN'. The port definition is at: ../../../../Eink_controller_V1.0.srcs/sources_1/new/outRGB.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/outRGB File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/eink_controller_et073tc1_img_demo.v Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'EN_GRAY_IMG'. The port definition is at: ../../../../Eink_controller_V1.0.srcs/sources_1/new/outRGB.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/outRGB File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/eink_controller_et073tc1_img_demo.v Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (24) does not match connection size (8) for port 'gray_data'. The port definition is at: ../../../../Eink_controller_V1.0.srcs/sources_1/new/rgb2gray.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/inst_rgb2gray File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/eink_controller_et073tc1_img_demo.v Line: 160
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/sync_sw_rdata_addr/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/sync_r_data_flag/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newframe_ctrl/sync_gray_vs/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newframe_ctrl/sync_gray_hs/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newframe_ctrl/sync_gray_de/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/sync_s_flag/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'dest_rst'. The port definition is at: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(727).
+#    Time: 0 ps  Iteration: 0  Instance: /eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/sync_epd_fflag/xpm_cdc_pulse File: ../../../../Eink_controller_V1.0.srcs/sources_1/new/sync_h2lck.v Line: 28
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.outRGB.inst_rd_image.inst_gray_rom.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.outRGB.inst_rd_image.inst_rgb_rom.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator module eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.inst_CTM_E.line_buf.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint  \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/SYS_CLK_FREQ \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/FDMA_WID \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_WID \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_FREQ \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_H \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_V \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/PERIOD_CNT \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/tFdly \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/tLEdly \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/tLEw \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/tLEoff \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/MGR_IDEL \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/MGR_STATE1 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/MGR_STATE2 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/MGR_STATE3 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/epd_clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/rst_n \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/period_cnt \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/d_busy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/d_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/r_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/fifo_ren \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/din \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_SKV \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_SPV \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_XCL \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_XLE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_XSTL \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/EPD_DOUT \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/s_flag_t \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/DELAY_CNT \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/fend_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/sf_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/MGR_STATE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/delay_cnt \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/display_mgr/DOUT
+add wave -position insertpoint  \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/FDMA_WID \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/EPD_WID \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/EPD_H \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/EPD_V \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/MAX_H \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/MAX_V \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/FRAME_H \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/FRAME_V \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/GRAY_SIZE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/DATA_SIZE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/TEXTURE_ADDR_MEM_OFFSET \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/GRAY_0_ADDR_MEM_OFFSET \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/GRAY_1_ADDR_MEM_OFFSET \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/DATA_0_ADDR_MEM_OFFSET \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/DATA_1_ADDR_MEM_OFFSET \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/rst_n \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/w_gray_s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/pix_clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_de \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_hs \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_vs \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_data \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/w_gray_busy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/w_gray_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clr_s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clr_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/epd_clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/sw_rdata_addr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_fifo_ren \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_fifo_out \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_waddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clear_fdma_wvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fifo_out \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fifo_full \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fifo_empty \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_raddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/texture_fdma_rvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/oldFrame_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/oldFrame_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/oldFrame_fifo_out \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/oldFrame_fifo_full \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/oldFrame_fifo_empty \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_raddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_rvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newFrame_fifo_out \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newFrame_fifo_full \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/newFrame_fifo_empty \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_waddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_fdma_wvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_fifo_full \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_fifo_empty \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_data_flag_t \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_raddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_rvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_ren \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/w_data_wbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/w_data_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_waddr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wareq \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wbusy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wdata \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wready \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wsize \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_fdma_wvalid \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/sw_rdata_addr_t \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/r_gray_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_w_addr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/gray_r_addr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_w_addr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/data_r_addr \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/frame_processor/clr_wbusy
+add wave -position insertpoint  \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/PERIOD_CNT \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SPL_TIME \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/CLR_T_STATE1 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/CLR_T_STATE2 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/CLR_T_STATE3 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_IDEL \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE1 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE2 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE3 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE4 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE5 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE6 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE7 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE8 \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/rst_n \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/w_gray_s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/w_gray_busy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/w_gray_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clr_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clr_s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clr_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/epd_clk \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/epd_s_flag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/period_cnt \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/epd_busy \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/epd_fflag \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clr_flag_t \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/CLR_T_STATE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/epd_fflag_t \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/SYS_STATE \
+sim:/eink_controller_img_demo_tb/inst_eink_controller_et073tc1_img_demo/system_mgr/clr_cnt
+run
+# ** Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.oldframe_ctrl.fdma_rgray_buf.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+#    Time: 1 ps  Scope: eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.oldframe_ctrl.fdma_rgray_buf.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc File: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 488
+# ** Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.texture_ctrl.fdma_rgray_buf.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+#    Time: 1 ps  Scope: eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.texture_ctrl.fdma_rgray_buf.xpm_fifo_sync.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc File: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 488
+# ** Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.fdma_r_data.fifo_rdata_buf.xpm_fifo_async.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+#    Time: 1 ps  Scope: eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.frame_processor.fdma_r_data.fifo_rdata_buf.xpm_fifo_async.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc File: C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 488
+# blk_mem_gen_v8_4_4 collision detected at time: 267153000, Instance: eink_controller_img_demo_tb.inst_eink_controller_et073tc1_img_demo.inst_CTM_E.line_buf.inst.native_mem_module.blk_mem_gen_v8_4_4_inst.sync_coll, A write address: 0, B read address: 0
+# Break key hit
+# Simulation stop requested.
+# End time: 01:35:50 on Oct 02,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 10

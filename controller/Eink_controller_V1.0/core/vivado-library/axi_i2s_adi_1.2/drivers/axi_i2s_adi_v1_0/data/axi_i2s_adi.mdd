@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER axi_i2s_adi
+	OPTION supported_peripherals = (axi_i2s_adi);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = axi_i2s_adi;
+END DRIVER

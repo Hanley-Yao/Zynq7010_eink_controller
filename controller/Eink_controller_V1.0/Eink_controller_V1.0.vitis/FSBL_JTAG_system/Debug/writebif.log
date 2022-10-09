@@ -1,0 +1,45 @@
+TRACE::2022-08-31.17:20:30::SCWBifWriter::Found the complete platform C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/ps_system.xpfm
+TRACE::2022-08-31.17:20:30::SCWBifWriter::hardware databse : eink_controller_ed108
+TRACE::2022-08-31.17:20:30::SCWBifWriter::bitstream found in the design
+TRACE::2022-08-31.17:20:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2022-08-31.17:20:30::SCWBifWriter::proc type : 
+TRACE::2022-08-31.17:20:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2022-08-31.17:20:30::SCWBifWriter::Device type is : zynq
+TRACE::2022-08-31.17:20:30::SCWBifWriter::Writing BIF to file : C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/FSBL_JTAG_system/Debug/system.bif
+TRACE::2022-08-31.17:20:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2022-09-10.12:05:34::SCWBifWriter::Found the complete platform C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/ps_system.xpfm
+TRACE::2022-09-10.12:05:34::SCWBifWriter::hardware databse : eink_controller_ed017
+TRACE::2022-09-10.12:05:34::SCWBifWriter::bitstream found in the design
+TRACE::2022-09-10.12:05:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2022-09-10.12:05:34::SCWBifWriter::proc type : 
+TRACE::2022-09-10.12:05:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2022-09-10.12:05:34::SCWBifWriter::Device type is : zynq
+TRACE::2022-09-10.12:05:34::SCWBifWriter::Writing BIF to file : C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/FSBL_JTAG_system/Debug/system.bif
+TRACE::2022-09-10.12:05:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2022-09-10.12:33:33::SCWBifWriter::Found the complete platform C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/ps_system.xpfm
+TRACE::2022-09-10.12:33:33::SCWBifWriter::hardware databse : eink_controller_ebaz4205_1
+TRACE::2022-09-10.12:33:33::SCWBifWriter::bitstream found in the design
+TRACE::2022-09-10.12:33:33::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2022-09-10.12:33:33::SCWBifWriter::proc type : 
+TRACE::2022-09-10.12:33:33::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2022-09-10.12:33:33::SCWBifWriter::Device type is : zynq
+TRACE::2022-09-10.12:33:33::SCWBifWriter::Writing BIF to file : C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/FSBL_JTAG_system/Debug/system.bif
+TRACE::2022-09-10.12:33:33::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2022-09-11.00:41:11::SCWBifWriter::Found the complete platform C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/ps_system.xpfm
+TRACE::2022-09-11.00:41:11::SCWBifWriter::hardware databse : eink_controller_et073_5
+TRACE::2022-09-11.00:41:11::SCWBifWriter::bitstream found in the design
+TRACE::2022-09-11.00:41:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2022-09-11.00:41:11::SCWBifWriter::proc type : 
+TRACE::2022-09-11.00:41:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2022-09-11.00:41:11::SCWBifWriter::Device type is : zynq
+TRACE::2022-09-11.00:41:11::SCWBifWriter::Writing BIF to file : C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/FSBL_JTAG_system/Debug/system.bif
+TRACE::2022-09-11.00:41:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2022-09-11.22:35:04::SCWBifWriter::Found the complete platform C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/ps_system.xpfm
+TRACE::2022-09-11.22:35:04::SCWBifWriter::hardware databse : eink_controller_et073_5
+TRACE::2022-09-11.22:35:04::SCWBifWriter::bitstream found in the design
+TRACE::2022-09-11.22:35:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2022-09-11.22:35:04::SCWBifWriter::proc type : 
+TRACE::2022-09-11.22:35:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2022-09-11.22:35:04::SCWBifWriter::Device type is : zynq
+TRACE::2022-09-11.22:35:04::SCWBifWriter::Writing BIF to file : C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/FSBL_JTAG_system/Debug/system.bif
+TRACE::2022-09-11.22:35:04::SCWBifWriter::Writing the Zynq Baremetal bif 

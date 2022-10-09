@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5789258610267425012  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto e7371ae53f73419c846d3973f479c434 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gray2binarization_tb_behav xil_defaultlib.gray2binarization_tb xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/gray2binarization_tb_behav/xsimk.exe\"   \"xsim.dir/gray2binarization_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/gray2binarization_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

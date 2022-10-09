@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../Eink_controller_V1.0.gen/sources_1/ip/GRAY_RX/hdl/verilog" \
+"../../../../Eink_controller_V1.0.gen/sources_1/ip/GRAY_RX/sim/GRAY_RX.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

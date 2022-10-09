@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0"/>
+	<item key="scw_hwspec_file_selection" value="C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0"/>
+	<item key="bootgen_files_selection" value="C:\Users\Admin\Desktop\Zynq7010_eink_controller\controller\Eink_controller_V1.0\Eink_controller_V1.0.vitis\ps_system\hw"/>
+</section>

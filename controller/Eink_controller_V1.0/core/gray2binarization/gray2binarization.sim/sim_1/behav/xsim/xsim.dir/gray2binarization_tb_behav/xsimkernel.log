@@ -1,0 +1,7 @@
+Running: xsim.dir/gray2binarization_tb_behav/xsimk.exe -simmode gui -wdb gray2binarization_tb_behav.wdb -simrunnum 0 -socket 13137
+Design successfully loaded
+Design Loading Memory Usage: 7212 KB (Peak: 7212 KB)
+Design Loading CPU Usage: 109 ms
+Simulation completed
+Simulation Memory Usage: 7832 KB (Peak: 7832 KB)
+Simulation CPU Usage: 109 ms

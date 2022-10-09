@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 22 16:23:40 2021
+# Process ID: 11136
+# Current directory: C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim/xsim.dir/rgb2gray_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/core/rgb2gray/rgb2gray.sim/sim_1/synth/timing/xsim/xsim.dir/rgb2gray_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace

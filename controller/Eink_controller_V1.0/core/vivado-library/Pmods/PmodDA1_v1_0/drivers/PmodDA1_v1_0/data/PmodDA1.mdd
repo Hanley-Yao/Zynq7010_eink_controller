@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PmodDA1
+	OPTION supported_peripherals = (PmodDA1);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PmodDA1;
+END DRIVER

@@ -1,0 +1,59 @@
+﻿<html >
+	<head>
+		<title>HTTP Server Demo</title>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<td>
+						<h1>HTTP Server Demo</h1>
+
+						<br><br>
+
+						This sketch is an example of an HTTP server built with the chipKIT MPIDE using the
+						Digilent Network Libraries. It demostrates the use of a Web browser as the
+						interface to monitor and control an embedded application running on a Digilent
+						chipKIT board or on a Digilent Cerebot board.
+
+						<br><br>
+
+						This demonstration illustrates the use of program code to generate HTML in
+						response to requests from a browser. It also illustrates using a file system on an
+						SD card that contains HTML files and images that can also be used in response to a
+						browser.
+
+						<br><br>
+
+						When processing an HTTP <code>Get</code> request message, the HTTP server code
+						will first determine if the resource being requested is a hard-coded resource. If
+						so, it will call the appropriate function to generate the HTML for the
+						response. If the requested resource isn't one of the hard-coded resources, the
+						server will look on the SD card for a file containing the requested resource.
+
+						<br><br>
+
+						The standard chipKIT SD library is used to access the file system on the SD card.
+						The MPIDE SD card library provides the ability to accesss files contained in a FAT
+						file system on the SD card. The library doesn't support long file names, so
+						only <a href="http://en.wikipedia.org/wiki/8.3_filename" target="blank">8.3 file
+						names</a> can be used, i.e., the name consists of a maximum of eight characters, a
+						period, and then an &ldquo;extension&rdquo; that has a maximum of three
+						characters.
+
+						<br><br>
+
+						The HTTP server currently supports the following data types in its responses:
+						plain text, HTML format text, JPEG format images, and PNG format images.  It also
+						supports the use of HTML forms. HTML forms can be used to control the operation of
+						the embedded application being hosted by the microcontroller board.
+						
+						<br><br>
+
+						<a href="aboutck.htm">About chipKIT</a>
+
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="ps_system"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+ps_system
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="ps_system">
+        <sdx:configuration sdx:name="ps_system"
+                           sdx:displayName="ps_system"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>ps_system</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="ps_system/boot/ps_system.bif"
+                            sdx:readme="ps_system/boot/generic.readme"
+                            sdx:qemuArguments="ps_system/qemu/qemu_args.txt"
+                            />
+                <sdx:image sdx:name="standalone_domain"
+                            sdx:bif="ps_system/boot/ps_system.bif"
+                            sdx:readme="ps_system/boot/generic.readme"
+                            sdx:qemuArguments="ps_system/standalone_domain/qemu/qemu_args.txt"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on ps7_cortexa9_0"
+                                sdx:cpuType="cortex-a9"
+                                sdx:cpuInstance="ps7_cortexa9_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="ps_system/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="ps_system/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="ps_system/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

@@ -1,0 +1,72 @@
+# do {eink_controller_img_demo_tb_elaborate.do}
+# QuestaSim-64 vopt 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 01:33:51 on Oct 02,2022
+# vopt "+acc=npr" -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib xil_defaultlib.eink_controller_img_demo_tb xil_defaultlib.glbl -o eink_controller_img_demo_tb_opt 
+# 
+# Top level modules:
+# 	eink_controller_img_demo_tb
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module eink_controller_img_demo_tb
+# -- Loading module glbl
+# -- Loading module eink_controller_et073tc1_img_demo
+# -- Loading module div_2
+# -- Loading module outRGB
+# -- Loading module rd_image
+# -- Loading module blk_mem_gen_gray
+# -- Loading module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4
+# -- Loading module blk_mem_gen_rgb
+# -- Loading module vga_shift
+# -- Loading module rgb2gray
+# -- Loading module delay_cnt
+# -- Loading module iic_config
+# -- Loading module i2c_top
+# -- Loading module unisims_ver.IOBUF
+# -- Loading module unisims_ver.PULLUP
+# -- Loading module config_reg_es108fc1
+# -- Loading module level2pulse
+# -- Loading module CTM_F
+# -- Loading module blk_line_buf
+# -- Loading module tps65185_ctrl
+# -- Loading module frame_processor
+# -- Loading module sync_h2lck
+# -- Loading module xpm.xpm_cdc_pulse
+# -- Loading module xpm.xpm_cdc_single
+# -- Loading module addr_sw
+# -- Loading module fdma_w_gray
+# -- Loading module xpm_fifo_wgray_buf
+# -- Loading module xpm.xpm_fifo_async
+# -- Loading module xpm_cdc_async_rst_n
+# -- Loading module xpm.xpm_cdc_async_rst
+# -- Loading module fdma_r_gary
+# -- Loading module xpm_fifo_rgray_buf
+# -- Loading module xpm.xpm_fifo_sync
+# -- Loading module xpm.xpm_fifo_base
+# -- Loading module xpm.xpm_fifo_rst
+# -- Loading module xpm.xpm_fifo_reg_bit
+# -- Loading module xpm.xpm_counter_updn
+# -- Loading module fdma_w_data
+# -- Loading module xpm_fifo_wdata_buf
+# -- Loading module fdma_r_data
+# -- Loading module xpm_fifo_rdata_buf
+# -- Loading module fdma_clear
+# -- Loading module fdma_sim_slave
+# -- Loading module display_mgr
+# -- Loading module frame_ctrl
+# -- Loading module frame_timing
+# -- Loading module data_mgr
+# -- Loading module system_mgr
+# -- Loading module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module
+# -- Loading module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage
+# -- Loading module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_output_reg_stage
+# -- Loading module blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4
+# -- Loading module xpm.xpm_memory_base
+# -- Loading module v_algo
+# -- Loading module xpm.xpm_cdc_sync_rst
+# -- Loading module xpm.xpm_cdc_gray
+# -- Loading module xpm.xpm_fifo_reg_vec
+# Incremental compilation check found no design-units have changed.
+# Optimized design name is eink_controller_img_demo_tb_opt
+# End time: 01:33:53 on Oct 02,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
