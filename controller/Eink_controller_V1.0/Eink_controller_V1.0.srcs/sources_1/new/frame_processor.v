@@ -28,29 +28,31 @@ module frame_processor#
     parameter DATA_1_ADDR_MEM_OFFSET  = 32'h1FE00000
     )
     (
-    input wire                      clk,
-    input wire                      rst_n,
+    input wire                  clk,
+    input wire                  rst_n,
     // 帧采样处理
-    input wire                      w_gray_s_flag,  // 开始处理一帧
+    input wire                  w_gray_s_flag,  // 开始处理一帧
 
-    input wire                      pix_clk,
-    input wire                      gray_de,
-    input wire                      gray_hs,
-    input wire                      gray_vs,
-    input wire  [7:0]               gray_data,
+    input wire                  pix_clk,
+    input wire                  gray_de,
+    input wire                  gray_hs,
+    input wire                  gray_vs,
+    input wire  [7:0]           gray_data,
 
-    output wire                     w_gray_busy,  // 正在采样
-    output wire                     w_gray_fflag,  // 采样完成标志
+    output wire                 w_gray_busy,  // 正在采样
+    output wire                 w_gray_fflag,  // 采样完成标志
     // 缓冲区屏幕清理
-    input wire                      clr_s_flag,  // 开始清除缓冲区
-    output wire                     clr_fflag,  // 缓冲区清除完毕
+    input wire                  clr_s_flag,  // 开始清除缓冲区
+    output wire                 clr_fflag,  // 缓冲区清除完毕
     // 驱动数据输出
-    input wire                      epd_clk,
-    input wire                      sw_rdata_addr,  // 周期完成切换地址
-    input wire                      r_data_flag,  // FMDA读取一行信号
-    input wire                      r_data_fifo_ren,  // FIFO读取一行信号
-    output wire  [FDMA_WID -1:0]    r_data_fifo_out  // FIFO数据输出
+    input wire                  epd_clk,
+    input wire                  sw_rdata_addr,  // 周期完成切换地址
+    input wire                  r_data_flag,  // FMDA读取一行信号
+    input wire                  r_data_fifo_ren,  // FIFO读取一行信号
+    output wire [FDMA_WID -1:0] r_data_fifo_out,  // FIFO数据输出
 
+    output wire                 CLK_50M,
+    output wire                 GPIO_O
     );
 
 //--------------------------------------------------------------
@@ -425,10 +427,14 @@ module frame_processor#
 
     `else
 
+
     ps_system_wrapper ps_system
         (
             .clk                    (clk),
             .rst_n                  (rst_n),
+
+            .CLK_50M                (CLK_50M),
+            .GPIO_O                 (GPIO_O),
 
             .texture_fdma_waddr     (clear_fdma_waddr),  // 接口用于重置缓冲区并非用于填充纹理!
             .texture_fdma_wareq     (clear_fdma_wareq),

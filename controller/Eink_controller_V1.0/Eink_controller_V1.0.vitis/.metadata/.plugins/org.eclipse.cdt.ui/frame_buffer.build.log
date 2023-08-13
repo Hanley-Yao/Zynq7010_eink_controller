@@ -1,35 +1,7 @@
-17:28:59 **** Incremental Build of configuration Debug for project frame_buffer ****
-make all 
-make --no-print-directory pre-build
-a9-linaro-pre-build-step
-' '
-make --no-print-directory main-build
-'Building file: ../src/helloworld.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/texture.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/texture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/texture.d" -MT"src/texture.o" -o "src/texture.o" "../src/texture.c"
-'Finished building: ../src/texture.c'
-' '
-'Building target: frame_buffer.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Admin/Desktop/Zynq7010_eink_controller/controller/Eink_controller_V1.0/Eink_controller_V1.0.vitis/ps_system/export/ps_system/sw/ps_system/standalone_domain/bsplib/lib -o "frame_buffer.elf"  ./src/helloworld.o ./src/platform.o ./src/texture.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
-'Finished building target: frame_buffer.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size frame_buffer.elf  |tee "frame_buffer.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  24980	4134520	4216872	8376372	 7fd034	frame_buffer.elf
-'Finished building: frame_buffer.elf.size'
+22:10:43 **** Clean-only build of configuration Debug for project frame_buffer ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/texture.o  ./src/helloworld.d ./src/platform.d ./src/texture.d  frame_buffer.elf.size  frame_buffer.elf
 ' '
 
-17:29:07 Build Finished (took 8s.278ms)
+22:10:44 Build Finished (took 837ms)
 

@@ -53,13 +53,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="66"/>
-    <Option Name="WTModelSimExportSim" Val="66"/>
-    <Option Name="WTQuestaExportSim" Val="66"/>
-    <Option Name="WTIesExportSim" Val="66"/>
-    <Option Name="WTVcsExportSim" Val="66"/>
-    <Option Name="WTRivieraExportSim" Val="66"/>
-    <Option Name="WTActivehdlExportSim" Val="66"/>
+    <Option Name="WTXSimExportSim" Val="67"/>
+    <Option Name="WTModelSimExportSim" Val="67"/>
+    <Option Name="WTQuestaExportSim" Val="67"/>
+    <Option Name="WTIesExportSim" Val="67"/>
+    <Option Name="WTVcsExportSim" Val="67"/>
+    <Option Name="WTRivieraExportSim" Val="67"/>
+    <Option Name="WTActivehdlExportSim" Val="67"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -83,29 +83,20 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_cc_0/ps_system_auto_cc_0.xci">
-          <Proxy FileSetName="ps_system_auto_cc_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_xbar_0/ps_system_xbar_0.xci">
+          <Proxy FileSetName="ps_system_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s00_data_fifo_0/ps_system_s00_data_fifo_0.xci">
-          <Proxy FileSetName="ps_system_s00_data_fifo_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_uiFDMA_0_2/ps_system_uiFDMA_0_2.xci">
-          <Proxy FileSetName="ps_system_uiFDMA_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s02_data_fifo_0/ps_system_s02_data_fifo_0.xci">
-          <Proxy FileSetName="ps_system_s02_data_fifo_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s02_regslice_0/ps_system_s02_regslice_0.xci">
+          <Proxy FileSetName="ps_system_s02_regslice_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_cc_1/ps_system_auto_cc_1.xci">
           <Proxy FileSetName="ps_system_auto_cc_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_m00_data_fifo_0/ps_system_m00_data_fifo_0.xci">
-          <Proxy FileSetName="ps_system_m00_data_fifo_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s02_data_fifo_0/ps_system_s02_data_fifo_0.xci">
+          <Proxy FileSetName="ps_system_s02_data_fifo_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s01_regslice_0/ps_system_s01_regslice_0.xci">
-          <Proxy FileSetName="ps_system_s01_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_cc_2/ps_system_auto_cc_2.xci">
-          <Proxy FileSetName="ps_system_auto_cc_2"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s00_data_fifo_0/ps_system_s00_data_fifo_0.xci">
+          <Proxy FileSetName="ps_system_s00_data_fifo_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s01_data_fifo_0/ps_system_s01_data_fifo_0.xci">
           <Proxy FileSetName="ps_system_s01_data_fifo_0"/>
@@ -113,11 +104,26 @@
         <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_pc_0/ps_system_auto_pc_0.xci">
           <Proxy FileSetName="ps_system_auto_pc_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s02_regslice_0/ps_system_s02_regslice_0.xci">
-          <Proxy FileSetName="ps_system_s02_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_processing_system7_0_0/ps_system_processing_system7_0_0.xci">
+          <Proxy FileSetName="ps_system_processing_system7_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_util_vector_logic_0_0/ps_system_util_vector_logic_0_0.xci">
-          <Proxy FileSetName="ps_system_util_vector_logic_0_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_m00_data_fifo_0/ps_system_m00_data_fifo_0.xci">
+          <Proxy FileSetName="ps_system_m00_data_fifo_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_uiFDMA_0_0/ps_system_uiFDMA_0_0.xci">
+          <Proxy FileSetName="ps_system_uiFDMA_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_cc_2/ps_system_auto_cc_2.xci">
+          <Proxy FileSetName="ps_system_auto_cc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_uiFDMA_0_2/ps_system_uiFDMA_0_2.xci">
+          <Proxy FileSetName="ps_system_uiFDMA_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s00_regslice_0/ps_system_s00_regslice_0.xci">
+          <Proxy FileSetName="ps_system_s00_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_auto_cc_0/ps_system_auto_cc_0.xci">
+          <Proxy FileSetName="ps_system_auto_cc_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_m00_regslice_0/ps_system_m00_regslice_0.xci">
           <Proxy FileSetName="ps_system_m00_regslice_0"/>
@@ -125,17 +131,11 @@
         <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_uiFDMA_0_1/ps_system_uiFDMA_0_1.xci">
           <Proxy FileSetName="ps_system_uiFDMA_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_uiFDMA_0_0/ps_system_uiFDMA_0_0.xci">
-          <Proxy FileSetName="ps_system_uiFDMA_0_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s01_regslice_0/ps_system_s01_regslice_0.xci">
+          <Proxy FileSetName="ps_system_s01_regslice_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_processing_system7_0_0/ps_system_processing_system7_0_0.xci">
-          <Proxy FileSetName="ps_system_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_xbar_0/ps_system_xbar_0.xci">
-          <Proxy FileSetName="ps_system_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_s00_regslice_0/ps_system_s00_regslice_0.xci">
-          <Proxy FileSetName="ps_system_s00_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="ps_system.bd" FileRelPathName="ip/ps_system_util_vector_logic_0_0/ps_system_util_vector_logic_0_0.xci">
+          <Proxy FileSetName="ps_system_util_vector_logic_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/addr_sw.v">
@@ -280,31 +280,8 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/outRGB.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PGENDIR/sources_1/bd/ps_system/hdl/ps_system_wrapper.v">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/rd_image.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/rgb2gray.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Eink_controller/Eink_controller.srcs/sources_1/new/rgb2gray.v"/>
-          <Attr Name="ImportTime" Val="1647151428"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -341,13 +318,6 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Eink_controller/Eink_controller.srcs/sources_1/new/v_algo.v"/>
           <Attr Name="ImportTime" Val="1647151428"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/vga_shift.v">
-        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -398,8 +368,50 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/eink_controller_es108fc1.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/outRGB.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/rd_image.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/rgb2gray.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Eink_controller/Eink_controller.srcs/sources_1/new/rgb2gray.v"/>
+          <Attr Name="ImportTime" Val="1647151428"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/vga_shift.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/eink_controller_et068sc1_img_demo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -430,14 +442,6 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/eink_controller_et073tc1_img_demo.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/eink_controller_es108fc1.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -573,7 +577,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="eink_controller_et068sc1_img_demo"/>
+        <Option Name="TopModule" Val="eink_controller_es108fc1"/>
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
@@ -926,81 +930,9 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="ps_system_auto_cc_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_1" RelGenDir="$PGENDIR/ps_system_auto_cc_1">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_auto_cc_1"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s02_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s02_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s02_data_fifo_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s02_data_fifo_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s00_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s00_regslice_0" RelGenDir="$PGENDIR/ps_system_s00_regslice_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s00_regslice_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s02_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s02_regslice_0" RelGenDir="$PGENDIR/ps_system_s02_regslice_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s02_regslice_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_auto_cc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_0" RelGenDir="$PGENDIR/ps_system_auto_cc_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_auto_cc_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s01_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s01_regslice_0" RelGenDir="$PGENDIR/ps_system_s01_regslice_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s01_regslice_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s01_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s01_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s01_data_fifo_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s01_data_fifo_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_s00_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s00_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s00_data_fifo_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_s00_data_fifo_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="ps_system_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_xbar_0" RelGenDir="$PGENDIR/ps_system_xbar_0">
       <Config>
         <Option Name="TopModule" Val="ps_system_xbar_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_pc_0" RelGenDir="$PGENDIR/ps_system_auto_pc_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_auto_pc_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_auto_cc_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_2" RelGenDir="$PGENDIR/ps_system_auto_cc_2">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_auto_cc_2"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_m00_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_m00_data_fifo_0" RelGenDir="$PGENDIR/ps_system_m00_data_fifo_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_m00_data_fifo_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="ps_system_m00_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_m00_regslice_0" RelGenDir="$PGENDIR/ps_system_m00_regslice_0">
-      <Config>
-        <Option Name="TopModule" Val="ps_system_m00_regslice_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -1103,7 +1035,6 @@
     <FileSet Name="clock_pll_es108fc1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clock_pll_es108fc1" RelGenDir="$PGENDIR/clock_pll_es108fc1">
       <File Path="$PSRCDIR/sources_1/ip/clock_pll_es108fc1/clock_pll_es108fc1.xci">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1145,6 +1076,7 @@
     <FileSet Name="rgb_clk" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rgb_clk" RelGenDir="$PGENDIR/rgb_clk">
       <File Path="$PSRCDIR/sources_1/ip/rgb_clk/rgb_clk.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1158,6 +1090,7 @@
     <FileSet Name="blk_mem_gen_rgb" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_rgb" RelGenDir="$PGENDIR/blk_mem_gen_rgb">
       <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_rgb/blk_mem_gen_rgb.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1171,6 +1104,7 @@
     <FileSet Name="blk_mem_gen_gray" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_gray" RelGenDir="$PGENDIR/blk_mem_gen_gray">
       <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_gray/blk_mem_gen_gray.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1184,6 +1118,7 @@
     <FileSet Name="clock_pll_et068sc1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clock_pll_et068sc1" RelGenDir="$PGENDIR/clock_pll_et068sc1">
       <File Path="$PSRCDIR/sources_1/ip/clock_pll_et068sc1/clock_pll_et068sc1.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1191,6 +1126,91 @@
       </File>
       <Config>
         <Option Name="TopModule" Val="clock_pll_et068sc1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="EBAZ4205_20230529" Type="Constrs" RelSrcDir="$PSRCDIR/EBAZ4205_20230529" RelGenDir="$PGENDIR/EBAZ4205_20230529">
+      <File Path="$PSRCDIR/EBAZ4205_20230529/imports/new/top_pin.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PSRCDIR/EBAZ4205_20220521/new/top_pin.xdc"/>
+          <Attr Name="ImportTime" Val="1671203950"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s01_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s01_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s01_data_fifo_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s01_data_fifo_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s02_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s02_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s02_data_fifo_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s02_data_fifo_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_auto_cc_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_1" RelGenDir="$PGENDIR/ps_system_auto_cc_1">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_auto_cc_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s02_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s02_regslice_0" RelGenDir="$PGENDIR/ps_system_s02_regslice_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s02_regslice_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_m00_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_m00_data_fifo_0" RelGenDir="$PGENDIR/ps_system_m00_data_fifo_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_m00_data_fifo_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_auto_cc_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_2" RelGenDir="$PGENDIR/ps_system_auto_cc_2">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_auto_cc_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s01_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s01_regslice_0" RelGenDir="$PGENDIR/ps_system_s01_regslice_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s01_regslice_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s00_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s00_regslice_0" RelGenDir="$PGENDIR/ps_system_s00_regslice_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s00_regslice_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_s00_data_fifo_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_s00_data_fifo_0" RelGenDir="$PGENDIR/ps_system_s00_data_fifo_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_s00_data_fifo_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_auto_cc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_cc_0" RelGenDir="$PGENDIR/ps_system_auto_cc_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_auto_cc_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_auto_pc_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_auto_pc_0" RelGenDir="$PGENDIR/ps_system_auto_pc_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_auto_pc_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ps_system_m00_regslice_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ps_system_m00_regslice_0" RelGenDir="$PGENDIR/ps_system_m00_regslice_0">
+      <Config>
+        <Option Name="TopModule" Val="ps_system_m00_regslice_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -1214,7 +1234,7 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="15">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="EBAZ4205_20220909" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../EPD Tool/Eink_controller/Eink_controller.srcs/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="EBAZ4205_20230529" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../EPD Tool/Eink_controller/Eink_controller.srcs/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -1313,115 +1333,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="ps_system_auto_cc_1_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_1" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_1_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s02_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s02_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s02_data_fifo_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s00_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s00_regslice_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s02_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s02_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s02_regslice_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_cc_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s01_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s01_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s01_regslice_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s01_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s01_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s01_data_fifo_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s00_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s00_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s00_data_fifo_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
     <Run Id="ps_system_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_xbar_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_xbar_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_pc_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_pc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_pc_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_cc_2_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_2" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_2_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_m00_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_m00_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_m00_data_fifo_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_m00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_m00_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_m00_regslice_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -1531,16 +1443,122 @@
     </Run>
     <Run Id="clock_pll_et068sc1_synth_1" Type="Ft3:Synth" SrcSet="clock_pll_et068sc1" Part="xc7z010clg400-1" ConstrsSet="clock_pll_et068sc1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clock_pll_et068sc1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="EBAZ4205_20220909" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../EPD Tool/Eink_controller/Eink_controller.srcs/utils_1/imports/impl_1">
+    <Run Id="ps_system_s01_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s01_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s01_data_fifo_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s02_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s02_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s02_data_fifo_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_1_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_1" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s02_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s02_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s02_regslice_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_m00_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_m00_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_m00_data_fifo_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_2_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_2" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s01_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s01_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s01_regslice_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s00_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s00_regslice_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s00_data_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_s00_data_fifo_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_data_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s00_data_fifo_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_cc_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_auto_pc_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_pc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_pc_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_m00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="ps_system_m00_regslice_0" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_regslice_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_m00_regslice_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="EBAZ4205_20230529" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../EPD Tool/Eink_controller/Eink_controller.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -1727,211 +1745,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="ps_system_auto_cc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_1_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_1_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s02_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s02_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s02_data_fifo_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s00_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s00_regslice_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s02_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s02_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s02_regslice_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_cc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s01_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s01_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s01_regslice_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s01_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s01_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s01_data_fifo_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_s00_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s00_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_s00_data_fifo_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
     <Run Id="ps_system_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_xbar_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_xbar_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_pc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_pc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_pc_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_auto_cc_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_2_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_auto_cc_2_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_m00_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_m00_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_m00_data_fifo_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="ps_system_m00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_m00_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ps_system_m00_regslice_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
@@ -2137,9 +1951,211 @@
     </Run>
     <Run Id="clock_pll_et068sc1_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="clock_pll_et068sc1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="clock_pll_et068sc1_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clock_pll_et068sc1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s01_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s01_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s01_data_fifo_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s02_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s02_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s02_data_fifo_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_1_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_1_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s02_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s02_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s02_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s02_regslice_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_m00_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_m00_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_m00_data_fifo_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_2_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_2_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s01_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s01_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s01_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s01_regslice_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s00_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s00_regslice_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_s00_data_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_s00_data_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_s00_data_fifo_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_s00_data_fifo_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_cc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_cc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_cc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_cc_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_auto_pc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_auto_pc_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_auto_pc_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="ps_system_m00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ps_system_m00_regslice_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ps_system_m00_regslice_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../open/Zynq7010_eink_controller-master/controller/Eink_controller_V1.0/Eink_controller_V1.0.srcs/utils_1/imports/ps_system_m00_regslice_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

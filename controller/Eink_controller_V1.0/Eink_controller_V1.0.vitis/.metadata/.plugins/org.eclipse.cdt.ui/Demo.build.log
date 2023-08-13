@@ -1,0 +1,26 @@
+22:10:39 **** Clean-only build of project Demo ****
+buildplatform.bat 3742 Demo clean 
+XSDB Server Channel: tcfchan#2
+Cleaning the zynq_fsbl application.
+rm -rf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o  pcap.o  fsbl_handoff.o zynq
+_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a fsbl.elf *.o
+
+rm: lstat¡®*.o¡¯Ê§°Ü: Invalid argument
+Failed to do platform clean.
+make: *** [Makefile:42: clean] Error 1
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active Demo; platform clean}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform clean"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\buildplatform.tcl" line 11)
+
+22:10:43 Build Finished (took 3s.804ms)
+

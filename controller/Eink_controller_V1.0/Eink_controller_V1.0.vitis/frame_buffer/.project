@@ -3,7 +3,7 @@
 	<name>frame_buffer</name>
 	<comment>Created by Vitis v2020.2</comment>
 	<projects>
-		<project>ps_system</project>
+		<project>Demo</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,9 +1,19 @@
 #include <stdio.h>
 #include "xparameters.h"
+#include "xgpiops.h"
+#include "xgpiops_hw.h"
 #include "xsdps.h"
 #include "xil_printf.h"
-#include "ff.h"
+
 #include "xil_cache.h"
+
+#define GPIO_DEVICE_ID    	XPAR_AXI_GPIO_0_DEVICE_ID
+#define Key       			20
+#define CLEAR_GPIO    		54
+
+#define input  0
+#define output 1
+XGpioPs Gpios;
 
 void Xil_DCacheDisable(void);
 void Xil_ICacheDisable(void);
@@ -25,7 +35,36 @@ int main()
 		Texture_Buf[i] = acTexture[i];
 	}
 	xil_printf("end\n");
-	return 0;
+
+    int Status;
+    XGpioPs_Config *ConfigPtr;
+
+    //初始化GPIO
+    print("EMIO Test! \n\r");
+    ConfigPtr = XGpioPs_LookupConfig(XPAR_XGPIOPS_0_DEVICE_ID);
+    Status = XGpioPs_CfgInitialize(&Gpios, ConfigPtr,
+    ConfigPtr->BaseAddr);
+    if (Status != XST_SUCCESS){
+    return XST_FAILURE;
+    }
+
+     //设置LED接口方向为输出
+    XGpioPs_SetDirectionPin(&Gpios,CLEAR_GPIO,output);
+    //设置KEY接口方向为输入
+    XGpioPs_SetDirectionPin(&Gpios,Key,input);
+    //使能LED接口输出
+    XGpioPs_SetOutputEnablePin(&Gpios,CLEAR_GPIO,0);
+    while(1)
+    {
+    	//读取KEY状态，改变LED输出电平
+    	if(XGpioPs_ReadPin(&Gpios,Key))
+    		{XGpioPs_WritePin(&Gpios,CLEAR_GPIO,0);}
+    	else
+    		XGpioPs_WritePin(&Gpios,CLEAR_GPIO,1);
+
+    }
+
+    return XST_SUCCESS;
 }
 
 //static FATFS SD_Dev;  // 文件系统实例

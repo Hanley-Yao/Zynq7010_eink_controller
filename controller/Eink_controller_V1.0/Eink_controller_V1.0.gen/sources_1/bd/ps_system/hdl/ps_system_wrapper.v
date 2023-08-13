@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Sun Oct  2 11:37:45 2022
+//Date        : Sun Aug 13 17:27:42 2023
 //Host        : Duller running 64-bit major release  (build 9200)
 //Command     : generate_target ps_system_wrapper.bd
 //Design      : ps_system_wrapper
@@ -10,7 +10,8 @@
 `timescale 1 ps / 1 ps
 
 module ps_system_wrapper
-   (DDR_addr,
+   (CLK_50M,
+    DDR_addr,
     DDR_ba,
     DDR_cas_n,
     DDR_ck_n,
@@ -31,6 +32,7 @@ module ps_system_wrapper
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    GPIO_O,
     clk,
     data_fdma_raddr,
     data_fdma_rareq,
@@ -75,6 +77,7 @@ module ps_system_wrapper
     texture_fdma_wready,
     texture_fdma_wsize,
     texture_fdma_wvalid);
+  output CLK_50M;
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -96,6 +99,7 @@ module ps_system_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  output [0:0]GPIO_O;
   input clk;
   input [31:0]data_fdma_raddr;
   input data_fdma_rareq;
@@ -141,6 +145,7 @@ module ps_system_wrapper
   input [15:0]texture_fdma_wsize;
   output texture_fdma_wvalid;
 
+  wire CLK_50M;
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
   wire DDR_cas_n;
@@ -162,6 +167,7 @@ module ps_system_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire [0:0]GPIO_O;
   wire clk;
   wire [31:0]data_fdma_raddr;
   wire data_fdma_rareq;
@@ -208,7 +214,8 @@ module ps_system_wrapper
   wire texture_fdma_wvalid;
 
   ps_system ps_system_i
-       (.DDR_addr(DDR_addr),
+       (.CLK_50M(CLK_50M),
+        .DDR_addr(DDR_addr),
         .DDR_ba(DDR_ba),
         .DDR_cas_n(DDR_cas_n),
         .DDR_ck_n(DDR_ck_n),
@@ -229,6 +236,7 @@ module ps_system_wrapper
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
+        .GPIO_O(GPIO_O),
         .clk(clk),
         .data_fdma_raddr(data_fdma_raddr),
         .data_fdma_rareq(data_fdma_rareq),

@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xgpio.h"
+#include "xparameters.h"
+
+#define GPIO_DEVICE_ID    XPAR_AXI_GPIO_0_DEVICE_ID
+#define LED_CHANNEL       1
+#define BUTTON_CHANNEL    2
+
+XGpio Gpio;
+
+int main()
+{
+    int Status;
+    u32 ButtonData;
+
+    // 初始化GPIO设备
+    Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+    if (Status != XST_SUCCESS) {
+        xil_printf("Error initializing GPIO\r\n");
+        return XST_FAILURE;
+    }
+
+    // 设置GPIO通道为输入通道
+    XGpio_SetDataDirection(&Gpio, BUTTON_CHANNEL, 0xFF);
+
+    // 设置GPIO通道为输出通道
+    XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x00);
+
+    while (1) {
+        // 读取按钮状态
+        ButtonData = XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL);
+
+        // 如果按钮被按下，点亮LED灯
+        if (ButtonData) {
+            XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 0x01);
+        } else {
+            XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 0x00);
+        }
+    }
+
+    return XST_SUCCESS;
+}

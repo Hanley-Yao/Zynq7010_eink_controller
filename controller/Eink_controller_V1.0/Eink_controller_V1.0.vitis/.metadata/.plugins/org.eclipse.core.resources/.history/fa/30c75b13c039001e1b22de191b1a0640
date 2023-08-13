@@ -1,0 +1,144 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xgpiops.h"
+#include "xsdps.h"
+#include "xil_printf.h"
+
+#include "xil_cache.h"
+
+#define GPIO_DEVICE_ID    	XPAR_AXI_GPIO_0_DEVICE_ID
+#define Key       			20
+#define CLEAR_GPIO    		54
+
+XGpio Gpio;
+
+void Xil_DCacheDisable(void);
+void Xil_ICacheDisable(void);
+
+u8 Texture_Buf[4*1024*1024] __attribute__ ((section(".texture_buf")));
+
+extern unsigned char acTexture[];
+
+int main()
+{
+	Xil_DCacheDisable();
+	Xil_ICacheDisable();
+
+	int i;
+	int size = 2208*1872;
+	xil_printf("start\n");
+	for(i=0;i<size;i++)    //用 for 循环给数组元素赋值
+	{
+		Texture_Buf[i] = acTexture[i];
+	}
+	xil_printf("end\n");
+
+    int Status;
+    u32 LedData = 0;
+    u32 ButtonData;
+
+    // 初始化GPIO设备
+    Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+    if (Status != XST_SUCCESS) {
+        printf("GPIO初始化失败！\r\n");
+        return XST_FAILURE;
+    }
+
+    // 配置GPIO通道为输出
+    XGpio_SetDataDirection(&Gpio, CLEAR_GPIO, 0x0);
+
+    // 配置GPIO通道为输入
+    XGpio_SetDataDirection(&Gpio, Key, 0xFFFFFFFF);
+
+    while (1) {
+        // 读取按钮状态
+        ButtonData = XGpio_DiscreteRead(&Gpio, Key);
+
+        // 检测按钮是否按下
+        if (ButtonData & 0x1) {
+            // 控制LED状态
+
+            XGpio_DiscreteWrite(&Gpio, CLEAR_GPIO, 1);
+
+            // 等待一段时间
+            for (int Delay = 0; Delay < 1000000; Delay++);
+        } else {
+        	XGpio_DiscreteWrite(&Gpio, CLEAR_GPIO, 0);
+        }
+    }
+
+    return XST_SUCCESS;
+
+	return 0;
+}
+
+//static FATFS SD_Dev;  // 文件系统实例
+//char *SD_Path = "0:/";  // 指向逻辑驱动器号的字符串指针
+//static char FileName[32] = "texture.bin";  // 文件名
+//
+//int SD_init()
+//{
+//	FRESULT result;
+//	//-----------------------mount dev-------------------------------
+//	result =f_mount(&SD_Dev,SD_Path, 0);
+//	if (result != 0) {
+//		return XST_FAILURE;
+//	}
+//	return XST_SUCCESS;
+//}
+//
+//int SD_read(char *FileName,u8 *DestinationAddress,u32 ByteLength)
+//{
+//	FIL file;
+//	FRESULT result;
+//	UINT BytesRd;
+//
+//	result = f_open(&file,FileName,FA_READ);
+//	if(result)
+//	{
+//		return XST_FAILURE;
+//	}
+//
+//	result = f_lseek(&file, 0);
+//	if(result)
+//	{
+//		return XST_FAILURE;
+//	}
+//
+//	result = f_read(&file, (void*)DestinationAddress,ByteLength,&BytesRd);
+//	if(result)
+//	{
+//		return XST_FAILURE;
+//	}
+//
+//	result = f_close(&file);
+//	if(result)
+//	{
+//		return XST_FAILURE;
+//	}
+//	return XST_SUCCESS;
+//}
+//
+//int main()
+//{
+//	Xil_DCacheDisable();
+//	Xil_ICacheDisable();
+//
+//	FRESULT result;
+//	int Buffer_size = 2208*1872;
+//
+//	SD_init();
+////-----------------------read test data ------------------------------------------
+//	result=SD_read(FileName, Texture_Buf, Buffer_size);
+//	if (result!=0)
+//	{
+//		return XST_FAILURE;
+//	}
+//	xil_printf("SD CARD Data read Successfully\r\n");
+//
+////-----------------------check address--------------------------------------------
+//	xil_printf("the Texture_Buf address is: %x \n\r", &Texture_Buf);
+//
+//    return 0;
+//}
+

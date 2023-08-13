@@ -6,7 +6,7 @@ module eink_controller_es108fc1#
     parameter SCL_FREQ                = 200,          // I2C时钟频率Khz
     parameter DELAY_CNT               = 32'h00FFFFFF, // 系统配置延迟
     // 显示管理
-    parameter VCOM                    = 2600,         // -1.81V
+    parameter VCOM                    = 1810,         // -1.81V
     parameter EPD_WID                 = 16,           // EPD数据宽度
     parameter EPD_FREQ                = 33,           // EPD像素时钟频率Mhz
     parameter EPD_H                   = 1920,         // EPD屏幕长度
@@ -36,15 +36,11 @@ module eink_controller_es108fc1#
     )
 
     (
-    input wire                      clk,
-    input wire                      rst_n,
-    input wire                      clr_flag,  // 清屏
     // config
     inout  wire                     sda,
     output wire                     scl,
-    // Power
-    input wire                      epd_pwr_sw,
-    input wire                      pwr_good,
+    output wire                     video_card_rst_n,
+    output wire                     epd_dir,
     output wire                     epd_pwr_en,
     // EPD CTRL
     output wire                     EPD_SKV,
@@ -61,6 +57,9 @@ module eink_controller_es108fc1#
     input wire [7:0]                gray_i
     );
 
+    assign video_card_rst_n = 1;
+    assign epd_dir = 1;
+
 //--------------------------------------------------------------
     reg                     gray_de;
     reg                     gray_hs;
@@ -71,6 +70,8 @@ module eink_controller_es108fc1#
     wire                    w_gray_fflag;
     wire                    clr_fflag;
     wire [FDMA_WID -1:0]    r_data_fifo_out;
+    wire                    CLK_50M;
+    wire                    GPIO_O;
 //--------------------------------------------------------------
     wire  [7:0]             period_cnt;
     wire                    epd_busy;
@@ -98,7 +99,19 @@ module eink_controller_es108fc1#
     wire                    sys_rst_n;
 //--------------------------------------------------------------
 
-    assign sys_rst_n = pll_locked & rst_n;
+    wire clk = CLK_50M;
+    wire rst_n;
+    wire clr_flag = GPIO_O;
+    wire epd_pwr_sw = 1;
+    wire pwr_good = 1;
+
+    delay_cnt #(
+            .NUM(DELAY_CNT*2)
+        ) delay_rst (
+            .clk_i(clk),
+            .rstn_i(1),
+            .rst_o(rst_n)
+        );
 
     `ifdef vsim
 
@@ -111,7 +124,7 @@ module eink_controller_es108fc1#
     clock_pll_es108fc1 clock_pll
         (
             .clk_in(clk),
-            .resetn(rst_n),
+            .resetn(1),
 
             .clk_50m(clk_50m),
             .epd_clk(epd_clk),
@@ -119,6 +132,8 @@ module eink_controller_es108fc1#
             .locked(pll_locked)
         );
     `endif
+
+    assign sys_rst_n = pll_locked & rst_n;
 
     delay_cnt #(
             .NUM(DELAY_CNT)
@@ -133,7 +148,7 @@ module eink_controller_es108fc1#
             .SYS_CLK_FREQ(SYS_CLK_FREQ),
             .SCL_FREQ(SCL_FREQ)
         ) iic_config (
-            .clk       (clk),
+            .clk       (clk_50m),
             .rst_n     (rst_n),
             .scl       (scl),
             .sda       (sda),
@@ -209,7 +224,9 @@ module eink_controller_es108fc1#
             .sw_rdata_addr   (epd_fflag),  // input
             .r_data_flag     (r_data_flag),  // input
             .r_data_fifo_ren (r_data_fifo_ren),  // input
-            .r_data_fifo_out (r_data_fifo_out)  // output
+            .r_data_fifo_out (r_data_fifo_out),  // output
+            .CLK_50M         (CLK_50M),
+            .GPIO_O          (GPIO_O)
         );
 
     display_mgr #(

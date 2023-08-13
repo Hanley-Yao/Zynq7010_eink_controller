@@ -31,7 +31,7 @@
       <data key="HA">0x0FFFFFFF</data>
       <data key="HP">C_HIGHADDR</data>
       <data key="MA">M_AXI</data>
-      <data key="MX">/uiFDMA_0</data>
+      <data key="MX">/uiFDMA_2</data>
       <data key="MI">M_AXI</data>
       <data key="MS">SEG_processing_system7_0_HP0_DDR_LOWOCM</data>
       <data key="MV">xilinx.com:user:uiFDMA:3.0</data>
@@ -44,8 +44,9 @@
       <data key="VT">AC</data>
     </node>
     <node id="n2">
+      <data key="VH">2</data>
       <data key="VM">ps_system</data>
-      <data key="VT">BC</data>
+      <data key="VT">VR</data>
     </node>
     <node id="n3">
       <data key="BA">0x00000000</data>
@@ -53,7 +54,7 @@
       <data key="HA">0x0FFFFFFF</data>
       <data key="HP">C_HIGHADDR</data>
       <data key="MA">M_AXI</data>
-      <data key="MX">/uiFDMA_2</data>
+      <data key="MX">/uiFDMA_0</data>
       <data key="MI">M_AXI</data>
       <data key="MS">SEG_processing_system7_0_HP0_DDR_LOWOCM</data>
       <data key="MV">xilinx.com:user:uiFDMA:3.0</data>
@@ -84,21 +85,20 @@
       <data key="VT">AC</data>
     </node>
     <node id="n5">
-      <data key="VH">2</data>
       <data key="VM">ps_system</data>
-      <data key="VT">VR</data>
+      <data key="VT">BC</data>
     </node>
-    <edge id="e0" source="n2" target="n5">
+    <edge id="e0" source="n5" target="n2">
     </edge>
-    <edge id="e1" source="n5" target="n0">
+    <edge id="e1" source="n2" target="n0">
     </edge>
-    <edge id="e2" source="n1" target="n0">
+    <edge id="e2" source="n3" target="n0">
       <data key="EH">2</data>
     </edge>
     <edge id="e3" source="n4" target="n0">
       <data key="EH">2</data>
     </edge>
-    <edge id="e4" source="n3" target="n0">
+    <edge id="e4" source="n1" target="n0">
       <data key="EH">2</data>
     </edge>
   </graph>
